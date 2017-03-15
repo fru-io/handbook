@@ -38,7 +38,7 @@ Labels are designated with a diamond shape in the flow diagram.
 We use milestones, based on minor version, for determining if a request
 should be fixed for a specific release.
 
-- **[vX.Y](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+user%3Adrud+milestone%3Av0.1+)**: The list of requests that will be merged for that milestone once ready.
+- **[vX.Y](https://github.com/issues?utf8=%E2%9C%93&q=user%3Adrud+milestone%3Av0.1)**: The list of requests that will be merged for that milestone once ready.
 
 ### Flow Control Points
 
