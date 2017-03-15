@@ -4,7 +4,7 @@ This repository provides a collaborative location for developers that have an in
 Please read and understand our [governing principals and code of conduct](governance.md) before proceeding.
 
 ## Development
-* [Issue Workflow](development/issue_workflow.md) - learn how issues become actionable in our workflow.
+* [Request Workflow](development/issue_workflow.md) - learn how requests become actionable in our workflow.
 * [Development Workflow](development/development_workflow.md) - Once a request becomes actionable it's time to execute.
 * Pull Requests - When a request is nearing completion it may need a pull request..
 
