@@ -1,7 +1,7 @@
 # Community
 This repository provides a collaborative location for developers that have an interest in our tools.  Following the guidelines will help you maximize your time and ensure you have a voice in our process.
 
-Please read and understand our [governing principals and code of conduct](governance.md) before proceeding.
+Please read and understand our [governing principels and code of conduct](governance.md) before proceeding.
 
 ## Development
 * [Request Workflow](development/issue_workflow.md) - learn how requests become actionable in our workflow.
