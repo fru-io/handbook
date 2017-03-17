@@ -36,9 +36,7 @@ Labels are designated with a diamond shape in the flow diagram.
 ### Milestones
 
 We use milestones, based on minor version, for determining if a request
-should be fixed for a specific release.
-
-- **[vX.Y](https://github.com/issues?utf8=%E2%9C%93&q=user%3Adrud+milestone%3Av0.1)**: The list of requests that will be merged for that milestone once ready.
+should be fixed for a specific release.  Milestones are not tied to sprint intervals.
 
 ### Flow Control Points
 
@@ -60,6 +58,40 @@ Flow control points are designated with a diamond shape in the flow diagram.
 
 - **Is actionable?**: Is this an actionable request that is defined completely enough to begin development?
 
-### Planning
+### Example queries
 
-- **[sprint planning](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+user%3Adrud+milestone%3Av0.1+label%3Aactionable)**: Sprint planning should look at actionable requests that are scheduled for the upcoming milestone.
+You are encouraged to experiment with these queries.  For example, you could move from repo specifc to organization wide by replacing **repo:drud/ddev** with **user:drud** or you could add your username. You could add the filter **updated:>=2017-03-01** to see requests updated after a certain date.  See [https://help.github.com/articles/searching-issues/](https://help.github.com/articles/searching-issues/) for more information.
+
+#### Actionable
+
+- **[repo:drud/ddev milestone:v0.1 label:actionable is:open](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3Aactionable+is%3Aopen)**: Actionable requests that are available for completion.
+
+#### Not Actionable
+
+- **[repo:drud/ddev milestone:v0.1 -label:actionable is:open](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3Aactionable+is%3Aopen)**: Request that need attention to become actionable.
+
+#### Closed
+
+- **[repo:drud/ddev milestone:v0.1 is:closed label:actionable](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3Aactionable+is%3Aopen)**: Request that have been completed.
+
+- **[repo:drud/ddev milestone:v0.1 is:closed -label:actionable](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3Aactionable+is%3Aopen)**: Request that have been rejected.
+
+#### Hibernate
+
+- **[repo:drud/ddev milestone:v0.1 is:open label:hibernate](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+is%3Aopen+label%3Ahibernate)**: Request that are currently hibernating.
+
+#### Incubate
+
+- **[repo:drud/ddev milestone:v0.1 is:open label:incubate](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+is%3Aopen+label%3Aincubate+-label%3A%22work+in+progress%22)**: Request that are currently incubating.
+
+- **[repo:drud/ddev milestone:v0.1 is:open label:incubate -label:"work in progress"](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+is%3Aopen+label%3Aincubate+-label%3A%22work+in+progress%22)**: Request that are currently incubating that are not being worked on.
+
+#### Needs Docs
+
+- **[repo:drud/ddev milestone:v0.1 label:"needs docs" -label:"needs tests" -label:"work in progress"](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3A%22needs+docs%22+-label%3A%22needs+tests%22+-label%3A%22work+in+progress%22)**: Available requests that need documentation or tests.
+
+- **[repo:drud/ddev milestone:v0.1 label:"needs docs" -label:"needs tests" -label:"work in progress"](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3A%22needs+docs%22+-label%3A%22needs+tests%22+-label%3A%22work+in+progress%22)**: Available requests that only need documentation for completion.
+
+#### Needs Tests
+
+- **[repo:drud/ddev milestone:v0.1 label:"needs tests" -label:"needs docs" -label:"work in progress"](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3A%22needs+tests%22+-label%3A%22needs+docs%22+-label%3A%22work+in+progress%22)**: Available requests that only need tests for completion.
