@@ -60,7 +60,18 @@ Flow control points are designated with a diamond shape in the flow diagram.
 
 ### Example queries
 
-You are encouraged to experiment with these queries.  For example, you could move from repo specifc to organization wide by replacing **repo:drud/ddev** with **user:drud** or you could add your username. You could add the filter **updated:>=2017-03-01** to see requests updated after a certain date.  See [https://help.github.com/articles/searching-issues/](https://help.github.com/articles/searching-issues/) for more information.
+You are encouraged to experiment with these queries.  See [https://help.github.com/articles/searching-issues/](https://help.github.com/articles/searching-issues/) for more information.  You may need to update specific fields like assignee or milestone to match your objective.
+
+### Traffic Control Queries
+
+### Developer Queries
+
+- **[is:open user:drud label:actionable -label:"work in progress" milestone:v0.1 assignee:cyberswat](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+user%3Adrud+label%3Aactionable+-label%3A%22work+in+progress%22+milestone%3Av0.1+assignee%3Acyberswat)**: Actionable requests across all projects that are assigned, available for completion, and not being worked on by others.
+
+- **[is:open repo:drud/ddev label:actionable -label:"work in progress" milestone:v0.1 assignee:cyberswat](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+repo%3Adrud%2Fddev+label%3Aactionable+-label%3A%22work+in+progress%22+milestone%3Av0.1+assignee%3Acyberswat)**: Actionable requests from a project that are assigned, available for completion, and not being worked on by others.
+
+
+### Sprint Planning Queries
 
 #### Actionable
 
