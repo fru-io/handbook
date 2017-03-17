@@ -1,5 +1,5 @@
 # Example GitHub Queries
-Our workflow can be understood by evaluating our [issue workflow](issue_workflow.md) and [developer workflow](developer_workflow.md).
+Our workflow can be understood by evaluating our [issue workflow](issue_workflow.md) and [development workflow](development_workflow.md).
 
 You are encouraged to experiment with these queries.  See [https://help.github.com/articles/searching-issues/](https://help.github.com/articles/searching-issues/) for more information.  You may need to update specific fields like assignee or milestone to match your objective.
 
