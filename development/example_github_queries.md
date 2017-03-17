@@ -4,7 +4,7 @@ Our workflow can be understood by evaluating our [issue workflow](issue_workflow
 You are encouraged to experiment with these queries.  See [https://help.github.com/articles/searching-issues/](https://help.github.com/articles/searching-issues/) for more information.  You may need to update specific fields like assignee or milestone to match your objective.
 
 ## Traffic Control Queries
-- **[is:open user:drud no:label no:milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+user%3Adrud+no%3Alabel+no%3Amilestone)**: Actionable requests across all projects that are assigned, available for completion, and not being worked on by others.
+- **[is:open user:drud no:label no:milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+user%3Adrud+no%3Alabel+no%3Amilestone)**: Incoming requests that are at the beginning of our process.
 
 ## Developer Queries
 
