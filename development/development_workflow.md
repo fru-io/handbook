@@ -9,9 +9,9 @@ The example links in this section are for milestone v0.1 and should be adjusted 
 
 Each request has already been labeled as actionable begins at **Begin Development** and moves to **Close Request**.
 
-- **[Begin Development](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+assignee%3Acyberswat+label%3Aactionable+milestone%3Av0.1)**: Incoming requests that need to be addressed.
+- **Begin Development**: Incoming requests that need to be addressed.
 
-- **[Close Request](pull_request.md)**: The request has followed our pull request process and should be closed.
+- **Close Request**: The request has followed our pull request process and should be closed.
 
 ### Flow Control Points
 
@@ -32,3 +32,7 @@ Flow control points are designated with a diamond shape in the flow diagram.
 ### Labels
 
 Labels are discussed in greater depth in [issue workflow](issue_workflow.md).  Most development should require no label changes.  It is worth noting that labels like **work in progress** should be used according to their definition in the [issue workflow](issue_workflow.md).
+
+## Example Queries
+
+[Example queries](example_github_queries.md) are available to look at our workflow from different personas.
