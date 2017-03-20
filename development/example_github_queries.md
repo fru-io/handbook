@@ -6,6 +6,8 @@ You are encouraged to experiment with these queries.  See [https://help.github.c
 ## Traffic Control Queries
 - **[is:open org:drud no:label no:milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+org%3Adrud+no%3Alabel+no%3Amilestone)**: Incoming requests that are at the beginning of our process.
 
+- **[is:closed org:drud label:"work in progress"](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aclosed+org%3Adrud+label%3A%22work+in+progress%22)**: Requests that have been closed, but are still labelled as work in progress.
+
 ## Developer Queries
 
 - **[is:open org:drud label:actionable -label:"work in progress" milestone:v0.1 assignee:cyberswat](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+org%3Adrud+label%3Aactionable+-label%3A%22work+in+progress%22+milestone%3Av0.1+assignee%3Acyberswat)**: Actionable requests across all projects that are assigned, available for completion, and not being worked on by others.
