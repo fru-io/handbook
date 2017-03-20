@@ -4,11 +4,11 @@ Our workflow can be understood by evaluating our [issue workflow](issue_workflow
 You are encouraged to experiment with these queries.  See [https://help.github.com/articles/searching-issues/](https://help.github.com/articles/searching-issues/) for more information.  You may need to update specific fields like assignee or milestone to match your objective.
 
 ## Traffic Control Queries
-- **[is:open user:drud no:label no:milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+user%3Adrud+no%3Alabel+no%3Amilestone)**: Incoming requests that are at the beginning of our process.
+- **[is:open org:drud no:label no:milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+org%3Adrud+no%3Alabel+no%3Amilestone)**: Incoming requests that are at the beginning of our process.
 
 ## Developer Queries
 
-- **[is:open user:drud label:actionable -label:"work in progress" milestone:v0.1 assignee:cyberswat](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+user%3Adrud+label%3Aactionable+-label%3A%22work+in+progress%22+milestone%3Av0.1+assignee%3Acyberswat)**: Actionable requests across all projects that are assigned, available for completion, and not being worked on by others.
+- **[is:open org:drud label:actionable -label:"work in progress" milestone:v0.1 assignee:cyberswat](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+org%3Adrud+label%3Aactionable+-label%3A%22work+in+progress%22+milestone%3Av0.1+assignee%3Acyberswat)**: Actionable requests across all projects that are assigned, available for completion, and not being worked on by others.
 
 - **[is:open repo:drud/ddev label:actionable -label:"work in progress" milestone:v0.1 assignee:cyberswat](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+repo%3Adrud%2Fddev+label%3Aactionable+-label%3A%22work+in+progress%22+milestone%3Av0.1+assignee%3Acyberswat)**: Actionable requests from a project that are assigned, available for completion, and not being worked on by others.
 
