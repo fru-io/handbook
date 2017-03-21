@@ -9,6 +9,3 @@ If this is a feature request it should include acceptance criteria.  If it is a 
 
 ## How to reproduce it (as minimally and precisely as possible):
 If this is a bug report we will need everything that we can to reproduce the issue.  Try to assume that the person reading your report has zero context and needs everything explained to them!
-
-## How will we know this is completed?
-Provide clear criteria that helps us understand this has been completed.
