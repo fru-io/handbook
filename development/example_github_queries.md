@@ -4,7 +4,7 @@ Our workflow can be understood by evaluating our [issue workflow](issue_workflow
 You are encouraged to experiment with these queries.  See [https://help.github.com/articles/searching-issues/](https://help.github.com/articles/searching-issues/) for more information.  You may need to update specific fields like assignee or milestone to match your objective.
 
 ## Traffic Control Queries
-- **[is:open org:drud no:label no:milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+org%3Adrud+no%3Alabel+no%3Amilestone)**: Incoming requests that are at the beginning of our process.
+- **[org:drud no:milestone -label:actionable -label:incubate -label:hibernate is:open](https://github.com/issues?utf8=✓&q=org%3Adrud+no%3Amilestone+-label%3Aactionable+-label%3Aincubate+-label%3Ahibernate+is%3Aopen)**: Incoming requests that are at the beginning of our process.
 
 - **[is:closed org:drud label:"work in progress"](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aclosed+org%3Adrud+label%3A%22work+in+progress%22)**: Requests that have been closed, but are still labelled as work in progress.
 
@@ -18,13 +18,15 @@ You are encouraged to experiment with these queries.  See [https://help.github.c
 
 - **[repo:drud/ddev milestone:v0.1 label:"needs tests" -label:"needs docs" -label:"work in progress"](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3A%22needs+tests%22+-label%3A%22needs+docs%22+-label%3A%22work+in+progress%22)**: Available requests that only need tests for completion.
 
-## Sprint Planning Queries
+## Planning Queries
 
-- **[repo:drud/ddev milestone:v0.1 label:actionable is:open](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3Aactionable+is%3Aopen)**: Actionable requests that are ready to be scheduled in sprint planning for a given milestone.
+- **[org:drud no:milestone label:actionable is:open](https://github.com/issues?utf8=%E2%9C%93&q=org%3Adrud+no%3Amilestone+label%3Aactionable+is%3Aopen)**: Actionable requests that are missing a milestone across organization.
 
-## Product Planning Queries
+- **[repo:drud/ddev milestone:v0.1 is:closed is:issue](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+is%3Aclosed+is%3Aissue)**: Completed issues for a specific milestone that are completed. This represents what is actually shipped with a milestone.
 
-- **[repo:drud/ddev milestone:v0.1 -label:actionable is:open](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3Aactionable+is%3Aopen)**: Requests that need attention to become actionable.
+- **[repo:drud/ddev milestone:v0.1 +label:actionable is:open](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+label%3Aactionable+is%3Aopen)**: Actionable requests that are ready to begin work for a given milestone.
+
+- **[repo:drud/ddev milestone:v0.1 -label:actionable is:open](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+-label%3Aactionable+is%3Aopen)**: Requests that need attention to become actionable.
 
 - **[repo:drud/ddev milestone:v0.1 is:open label:incubate](https://github.com/issues?utf8=%E2%9C%93&q=repo%3Adrud%2Fddev+milestone%3Av0.1+is%3Aopen+label%3Aincubate+-label%3A%22work+in+progress%22)**: Request that are currently incubating.
 
