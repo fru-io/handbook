@@ -31,6 +31,8 @@ Labels are designated with a diamond shape in the flow diagram.
 
 - **showstopper**: Requests that require immediate attention at the expense of other work.
 
+- **needs milestone**: This request is one that we are interested in that needs to be scheduled for a milestone.
+
 - **work in progress**: This request is actively being worked on by the person it is assigned to.  This label is not represented in the flow diagram but may be applied at any time active work is happening on a request.
 
 ## Milestones
