@@ -10,4 +10,4 @@ Please read and understand our [governing principles and code of conduct](govern
 * Pull Requests - When a request is nearing completion it may need a pull request.
 
 ## Attribution
-We are continually improving how we work.  We are proud to reference the [GitLab Handbook](https://about.gitlab.com/handbook/) and [reasons](https://about.gitlab.com/2016/07/12/our-handbook-is-open-source-heres-why/) as inspiration for our handbook.
+We are continually improving how we work.  We are proud to reference the [Kubernetes](https://github.com/kubernetes/community) and [Drupal](https://www.drupal.org/community) communities as  inspiration for this repository.
