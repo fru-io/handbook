@@ -28,3 +28,7 @@ If a project clearly meets the guidelines described above (or if the team determ
 - The project should have no work-in-progress feature branches, and the immediate commit history should provide appropriate, meaningful commit messages.
 - Ideally, the project provides at least one tagged release.
 - Ideally, the project provides some level of test coverage.
+
+### Retiring a public repository
+
+Occasionally, a repository opened to the public may no longer meet the aforementioned guidelines. In these situations, the preference will be to keep the repository open while providing additional information on the main project page indicating any change in support, maintenance, etc. If a repository needs to be pulled back private or archived, the team will use its best judgment in how to do so without disrupting users that may be using and/or dependent upon it.
