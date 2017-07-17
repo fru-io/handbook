@@ -18,6 +18,7 @@ Issue Summary:
 * [ ] Draft release notes (release manager)
 * [ ] Draft additional announcements for blog, newsletter, etc (not applicable at the moment)
 * [ ] Create release (release manager)
+* [ ] Update any package managers to point to new release (release manager)
 
 For additional background information, please see our [Product Release](https://github.com/drud/community/blob/master/development/product_release.md) instructions here."
 
