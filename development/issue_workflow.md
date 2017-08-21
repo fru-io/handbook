@@ -19,8 +19,6 @@ Labels are designated with a diamond shape in the flow diagram.
 
 - **actionable**: Requests that are ready to be handed to development for scheduling.
 
-- **closed**: Requests that we have completed or have declined.
-
 - **hibernate**: Requests that we are not interested in pursuing at this time, but would like to leave open to revisit at a later date.
 
 - **incubate**: Requests that are within 1-2 sprints and need additional clarity.
@@ -28,6 +26,8 @@ Labels are designated with a diamond shape in the flow diagram.
 - **needs docs**: Requests that require, but do not have docs.
 
 - **needs tests**: Requests that require, but do not have tests.
+
+- **security**: Requests that the underlying issue has security implications. 
 
 - **showstopper**: Requests that require immediate attention at the expense of other work.
 
