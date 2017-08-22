@@ -9,7 +9,6 @@ Please read and understand our [governing principles and code of conduct](govern
 * [Development Norms](development/development_norms.md) - The Drud project has a number of development norms which we try to state explicitly when we can.
 * [Example GitHub Queries](development/example_github_queries.md) - Example queries to help navigate our workflow.
 * [Publishing Repositories](development/publishing_repositories.md) - Guidelines for publishing repositories to the public organization space.
-* Pull Requests - When a request is nearing completion it may need a pull request.
 
 ## Attribution
 We are continually improving how we work.  We are proud to reference the [Kubernetes](https://github.com/kubernetes/community) and [Drupal](https://www.drupal.org/community) communities as  inspiration for this repository.
