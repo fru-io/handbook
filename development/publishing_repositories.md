@@ -24,7 +24,7 @@ If a project clearly meets the guidelines described above (or if the team determ
 - The project has a README.md committed in the root of repo. The README clearly describes the project and its benefits to users.
 - The README has any applicable badges added for the project to indicate build status, maintenance status, etc.
 - The project has our [issue and pull request templates](https://github.com/drud/general/tree/master/.github) if we will be accepting issues and pull requests from outside contributors.
-- The project has a LICENSE committed in the root of repo. The MIT License should be used for all DRUD projects. If a different license is more appropriate or required for a project, create a ticket in drud/general to discuss the circumstances for that project.
+- The project has a LICENSE committed in the root of repo. The Apache 2.0 License should be used for all DRUD projects. If a different license is more appropriate or required for a project, create a ticket in drud/general to discuss the circumstances for that project.
 - The project should have no work-in-progress feature branches, and the immediate commit history should provide appropriate, meaningful commit messages.
 - Ideally, the project provides at least one tagged release.
 - Ideally, the project provides some level of test coverage.
