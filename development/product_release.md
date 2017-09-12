@@ -19,7 +19,7 @@ Issue Summary:
 * [ ] Draft additional announcements for blog, newsletter, etc (not applicable at the moment)
 * [ ] Create release (release manager)
 * [ ] Update any package managers to point to new release (release manager)
-* [ ] In accordance with [U.S Department of Commerce cryptographic legislation](https://www.bis.doc.gov/index.php/policy-guidance/encryption/encryption-faqs/15-policy-guidance/encryption) we need to send an email drafted from [bis_template.md](this template) to crypt@bis.doc.gov and enc@nsa.gov notifying the BIS of publicly available source code with encryption technology on major point releases.
+* [ ] In accordance with [U.S Department of Commerce cryptographic legislation](https://www.bis.doc.gov/index.php/policy-guidance/encryption/encryption-faqs/15-policy-guidance/encryption) we need to send an email drafted from [this template](bis_template.md) to crypt@bis.doc.gov and enc@nsa.gov notifying the BIS of publicly available source code with encryption technology on major point releases.
 
 
 For additional background information, please see our [Product Release](https://github.com/drud/community/blob/master/development/product_release.md) instructions here."
