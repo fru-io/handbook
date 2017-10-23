@@ -19,7 +19,7 @@ Labels are designated with a diamond shape in the flow diagram.
 
 - **actionable**: Requests that are ready to be handed to development for scheduling.
 
-- **blocker**: This request is preventing another issue within the an sprint from being worked on. Ideally, this should be prioritized above other requests.
+- **blocker**: This request is preventing another issue within an active project board from being worked on. Ideally, this should be prioritized above other requests.
 
 - **hibernate**: Requests that we are not interested in pursuing at this time, but would like to leave open to revisit at a later date.
 
