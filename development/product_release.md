@@ -13,6 +13,7 @@ Issue Summary:
 "Remaining actions:
 
 * [ ] Review release (product owner)
+* [ ] Confirm [Semantic Versioning compatibility](https://github.com/drud/ddev/issues/352)(release manager)
 * [ ] Approve release (product owner and release manager)
 * [ ] Create binaries (any DRUD maintainer)
 * [ ] Draft release notes (release manager)

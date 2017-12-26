@@ -58,6 +58,10 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 ### Attribution
 This Code of Conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org), version 1.4, available at [http://contributor-covenant.org/version/1/4](http://contributor-covenant.org/version/1/4/).
 
+### Versioning
+
+By default, all public facing code repositories will commit to [Semantic Version 2.0.0](https://semver.org/) unless otherwise specified in their respective README.md file. Additional context on this decision can be read in [Ensure ddev is properly utilizing Semantic Versioning](https://github.com/drud/ddev/issues/352)
+
 ## Repository Guidelines
 
 All code projects use the [MIT License](https://opensource.org/licenses/MIT). Documentation repositories should use the [Creative Commons License version 4.0](https://creativecommons.org/licenses/by/4.0/).
