@@ -9,7 +9,7 @@ We have a set of norms around pull requests and merging of code. Most of these h
 - Pull requests should be merged by the person who submitted them. We leave them open for the submitter so they may do minor cleanup before merging and control the order of merges if coordination among multiple PRs and/or repositories is required to successfully release the feature.
 - Pull requests should never be merged without a review. This includes changes for non-code related changes such as documentation. We require 1 review for smaller pull requests and at least 2 for larger pull requests. There's no defined line between "small" and "large" pull requests, and that is left to the submitter's discretion. The more reviews you get the less likely you are to be introducing bugs or nonworking code. As a general rule, we value stability over speed when it comes to introducing features.
 - All repositories are expected to use our [build tools](https://github.com/drud/build-tools) and provide standard make targets for items such as building containers and binaries.
-- It is strongly suggested that automated tests and documentation updates are included alongside pull requests.
+- It is strongly suggested that automated tests and documentation updates are included in pull requests.
 
 ## For Reviewers
 
