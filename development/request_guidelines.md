@@ -1,5 +1,3 @@
-# Pull Request Expectations
-
 # Request Guidelines
 A key tenant of any successful software project is communication.  If you are creating an issue or a pull request, you will have a greater chance for success by following this guide.
 
