@@ -25,8 +25,6 @@ Flow control points are designated with a diamond shape in the flow diagram.
 
 - **Needs Tests?**: You should write tests if you are responsible for supplying documentation to satisfy the request.
 
-- **Needs Tests?**: You should write tests if you are responsible for supplying documentation to satisfy the request.
-
 - **Ready for Review?**: Is the issue ready for a pull request or is there still more work that is needed?
 
 ### Labels
