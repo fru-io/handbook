@@ -1,0 +1,64 @@
+repository:
+  # See https://developer.github.com/v3/repos/#edit for all available settings.
+
+  # The name of the repository. Changing this will rename the repository
+  name: community
+
+  # A short description of the repository that will show up on GitHub
+  description: Community resources and guidelines for DRUD projects.
+
+  # A URL with more information about the repository
+  homepage: https://www.drud.com/
+
+  # Either `true` to make the repository private, or `false` to make it public.
+  private: false
+
+  # Either `true` to enable issues for this repository, `false` to disable them.
+  has_issues: true
+
+  # Either true to enable projects for this repository or false to disable them.
+  has_projects: false
+
+  # Either `true` to enable the wiki for this repository, `false` to disable it.
+  has_wiki: true
+
+  # Either `true` to enable downloads for this repository, `false` to disable them.
+  has_downloads: true
+
+  # Updates the default branch for this repository.
+  default_branch: master
+
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent
+  # squash-merging.
+  allow_squash_merge: true
+
+  # Either `true` to allow merging pull requests with a merge commit, or `false`
+  # to prevent merging pull requests with merge commits.
+  allow_merge_commit: false
+
+  # Either `true` to allow rebase-merging pull requests, or `false` to prevent
+  # rebase-merging.
+  allow_rebase_merge: false
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: actionable
+    color: 0e8a16
+  - name: blocker
+    color: f42493
+  - name: hibernate
+    color: b60205
+  - name: incubate
+    color: 1d76db
+  - name: needs decision
+    color: 5319e7
+  - name: needs docs
+    color: c5def5
+  - name: needs tests
+    color: c2e0c6
+  - name: security
+    color: d4c5f9
+  - name: showstopper
+    color: d93f0b
+  - name: work in progress
+    color: fbca04
