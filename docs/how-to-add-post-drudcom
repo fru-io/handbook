@@ -1,0 +1,36 @@
+How to add a post on http://drud.com
+
+**Text formatting**
+
+Copy body from gdocs, select all, clear formatting with "eraser" tool, check in text-only view. 
+Replace any backticks [`] with 
+
+ `<code>blahblah</code>`
+
+**Add images**
+
+Add images, upload, add alt text, photo credits. 
+Set featured image (search for featured image if needed)
+Add `<hr/>` at end of post
+Add photo credit  for featured image below the `<hr />` with `<small>`
+
+**Add meta data**
+
+Copy over meta description from gdoc to SEO pane below post
+
+**Configure post**
+
+Set publish date time, keeping in mind that this is in Denver time. 
+Select category for post ie DevOps, DDEV-Local etc
+Change author from posts page > quick edit
+
+**Preview post and publish**
+
+Visually check entire post
+Publish post
+Paste URL to published post into Asana task, and into the original doc. 
+Marked as published!
+
+**Social sharing**
+
+Also send tweet using social text from gdoc
