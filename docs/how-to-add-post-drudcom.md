@@ -20,7 +20,7 @@ Copy over meta description from gdoc to SEO pane below post
 
 **Configure post**
 
-Set publish date time, keeping in mind that this is in Denver time. 
+Set publish date time. If you use scheduling, note that the website time is UTC. 
 Select category for post ie DevOps, DDEV-Local etc
 Change author from posts page > quick edit
 
