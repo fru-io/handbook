@@ -64,6 +64,6 @@ By default, all public facing code repositories will commit to [Semantic Version
 
 ## Repository Guidelines
 
-All code projects use the [MIT License](https://opensource.org/licenses/MIT). Documentation repositories should use the [Creative Commons License version 4.0](https://creativecommons.org/licenses/by/4.0/).
+All code projects use the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Documentation repositories should use the [Creative Commons License version 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Projects that are being considered for publishing in the DRUD public organization should follow the guidelines and preparation steps outlined in the [Publishing Repositories](development/publishing_repositories.md) documentation.
