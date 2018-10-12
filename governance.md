@@ -6,7 +6,7 @@ The Drud mission:
 
  * Help developers shine
  * Make access to solutions ubiquitous
- * Empower the little guys
+ * Empower the little people
 
 ## Vision
 The Drud vision:
