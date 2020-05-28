@@ -1,5 +1,5 @@
 ---
-name: New Sprint template
+name: New Sprint Template
 about: Create an issue for tracking a sprint
 title: Sprint X-X-X
 labels: ''
