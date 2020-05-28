@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: File a new bug report for DDEV-Live
+about: File a new bug report for DDEV Community
 title: ''
 labels: ''
 assignees: ''
