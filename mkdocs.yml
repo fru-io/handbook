@@ -1,10 +1,5 @@
 site_name: DDEV Handbook
 
-theme:
-  name: 'material'
-  palette:
-    primary: 'light-blue'
-
 nav:
     - Home: index.md
 
