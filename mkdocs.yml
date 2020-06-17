@@ -7,6 +7,9 @@ theme:
 
 nav:
     - Home: index.md
+    - Engineering: engineering.md
+    - Marketing: marketing.md
+    - Product: product.md
 
 markdown_extensions:
     - toc:
