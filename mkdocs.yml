@@ -1,0 +1,28 @@
+site_name: DDEV Handbook
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'light-blue'
+
+nav:
+    - Home: index.md
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - admonition
+    - def_list
+    - mdx_truly_sane_lists:
+        nested_indent: 2
+        truly_sane: true
+    - nl2br
+
+plugins:
+    - search
+    - git-revision-date-localized:
+        type: timeago
+        locale: en
+
+extra_javascript:
+  - 'js/extra.js'
