@@ -7,6 +7,7 @@ theme:
 
 nav:
     - Home: index.md
+    - Company: company.md
     - Engineering: engineering.md
     - Marketing: marketing.md
     - Product: product.md
