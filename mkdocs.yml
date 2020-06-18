@@ -10,7 +10,8 @@ nav:
     - Company: company.md
     - Engineering: engineering.md
     - Marketing: marketing.md
-    - Product: product.md
+    - Product Management: product.md
+    - Project Management: project.md
 
 markdown_extensions:
     - toc:
