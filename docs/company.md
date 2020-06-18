@@ -11,4 +11,9 @@ We are a thriving part of the developer community working to advance developers 
 
 A world where developers are helping each other grow stronger, build faster, and collaboratively achieve solutions is what DDEV is all about.
 ## Values
+- We collaborate, internally and externally
+- People matter, we listen, participate and empower others internally and externally
+- Our products provide all developers equal opportunity to benefit and participate
+- Open source ethos
+- When in doubt, act then inform ([do-ocracy](https://communitywiki.org/wiki/DoOcracy)])
 ## Code of Conduct
