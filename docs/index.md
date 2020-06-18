@@ -13,6 +13,7 @@ The purpose of this handbook is to help you understand how DDEV works as an orga
 - [Ops-Pod](engineering.md#ops-pod)
 - [Features-Pod](engineering.md#features-pod)
 - [Development Process](engineering.md#development-process)
+- [QA Process](engineering.md#qa-process)
 - [Release Process](engineering.md#release-process)
 
 ## Marketing
@@ -22,3 +23,8 @@ The purpose of this handbook is to help you understand how DDEV works as an orga
 ## Product
 - [Product-Pod](product.md#marketing-pod)
 - [Suggesting an Idea](product.md#suggesting-an-idea)
+
+## Project Management
+- [SCRUM and RACI](project.md#scrum-and-raci)
+- [Definition of Ready](project.md#definition-of-ready)
+- [Definition of Done](project.md#definition-of-done)
