@@ -9,6 +9,7 @@ nav:
     - Home: index.md
     - Company: company.md
     - Engineering:
+        - engineering/index.md
         - Development: engineering/development.md
         - Support: engineering/support.md
     - Marketing: marketing.md
