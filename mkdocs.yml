@@ -8,7 +8,9 @@ theme:
 nav:
     - Home: index.md
     - Company: company.md
-    - Engineering: engineering.md
+    - Engineering: engineering/index.md
+        - Development: engineering/development.md
+        - Support: engineering/support.md
     - Marketing: marketing.md
     - Product: product.md
     - Project Management: project.md
