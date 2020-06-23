@@ -9,9 +9,10 @@ nav:
     - Home: index.md
     - Company: company.md
     - Engineering:
-        - engineering/index.md
         - Development: engineering/development.md
-        - Support: engineering/support.md
+        - Pods: engineering/pods.md
+        - Support Rotations: engineering/support-rotations.md
+        - Support Services: engineering/support-services.md
     - Marketing: marketing.md
     - Product: product.md
     - Project Management: project.md
