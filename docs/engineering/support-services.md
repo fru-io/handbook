@@ -68,9 +68,11 @@ Please take the time to [watch this video](https://drive.google.com/file/d/1wJaR
 Based on the severity level, the engineer should use the following internal guidelines to determine the timeframe for a response back to the customer.
 
 ## Internal Service Level Agreements (SLAs)
-| Severity | Initial Engagement Time |
-| Urgent | 60 minutes 24x7 |
-| High | 2 hours 24x5 |
-| Medium | 8 hours 24x5 |
-| Low | 8 hours 24x5 |
+
+| Severity      | Initial Engagement Time |
+| ------------- | ----------------------- | 
+| Urgent        | 60 minutes 24x7         |
+| High          | 2 hours 24x5            |
+| Medium        | 8 hours 24x5            |
+| Low           | 8 hours 24x5            |
  
