@@ -13,6 +13,7 @@ nav:
         - Pods: engineering/pods.md
         - Support Rotations: engineering/support-rotations.md
         - Support Services: engineering/support-services.md
+        - Playbooks: engineering/playbooks.md
     - Marketing: marketing.md
     - Product: product.md
     - Project Management: project.md
