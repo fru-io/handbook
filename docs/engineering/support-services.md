@@ -81,7 +81,7 @@ Support issues are assigned a Severity level reflecting the impact on production
 ### Urgent
 A catastrophic problem that severely impacts the ability to conduct business. This status means that production systems are down (completely non-responsive or not functioning), and no known workaround exists. Urgent issues expectation is a sixty-minute window for initial engagement twenty-four hours a day, seven days a week.
 
-- Tier One Response
+- **Tier One Response**
   - Evaluate the issue against the definition of an Urgent issue. If the Urgent status is not warranted, adjust it to an appropriate level.
   - Spend up to thirty minutes, attempting to resolve the issue by evaluating playbooks or using common sense.
   - If there is no resolution after thirty minutes, escalate the issue by creating a VictorOps bridge, which will notify Tier Two engineers to assist.
@@ -90,7 +90,7 @@ A catastrophic problem that severely impacts the ability to conduct business. Th
   - When the issue is resolved, close the customer's issue in our support desk.
   - Once the issue has a resolution, organize a post-event write-up within twenty-four hours to recap the issue, the solution, and any lessons learned.
   - Work with a project manager to schedule any Github issues that result from the incident.
-- Tier Two Response
+- **Tier Two Response**
   - Join the VictorOps bridge and coordinate resolution efforts.
   - Determine if the DDEV status page needs to be updated to indicate a system-wide impact. If a status page update is necessary, notify the Tier One respondent to manage the updates.
   - Work with the Tier One respondent to ensure relevant information is captured and communicated as you resolve the issue.
@@ -98,7 +98,7 @@ A catastrophic problem that severely impacts the ability to conduct business. Th
 ### High
 A high status indicates a situation in which production operations are disrupted but not fully degraded. In this scenario, a workaround may exist and is shared with the customer. High issues expectation is a two-hour window for initial engagement twenty-four hours a day Monday through Friday.
 
-- Tier One Response
+- **Tier One Response**
   - Evaluate the issue against the definition of a High issue. If the High status is not warranted, adjust it to an appropriate level.
   - Spend up to one hour, attempting to resolve the issue by evaluating playbooks or using common sense.
   - If there is no resolution after one hour, escalate the issue by creating a VictorOps bridge, which will notify Tier Two engineers to assist.
@@ -107,7 +107,7 @@ A high status indicates a situation in which production operations are disrupted
   - When the issue is resolved, close the customer's issue in our support desk.
   - Once the issue has a resolution, organize a post-event write-up within twenty-four hours to recap the issue, the solution, and any lessons learned.
   - Work with a project manager to schedule any Github issues that result from the incident.
-- Tier Two Response
+- **Tier Two Response**
   - Join the VictorOps bridge and coordinate resolution efforts.
   - Determine if the DDEV status page needs to be updated to indicate a system-wide impact. If a status page update is necessary, notify the Tier One respondent to manage the updates.
   - Work with the Tier One respondent to ensure relevant information is captured and communicated as you resolve the issue.
@@ -115,7 +115,7 @@ A high status indicates a situation in which production operations are disrupted
 ### Medium
 A medium status indicates a lower impact problem that involves a partial loss of non-critical functionality. The problem may be a minor issue with limited or no loss of functionality or impact on production operations. A medium status includes administrative requests and errors in the product documentation. Medium issues expectation is an eight-hour window for initial engagement twenty-four hours a day Monday through Friday.
 
-- Tier One Response
+- **Tier One Response**
   - Evaluate the issue against the definition of a Medium issue. If the Medium status is not warranted, adjust it to an appropriate level.
   - Spend up to two hours, attempting to resolve the issue by evaluating playbooks or using common sense.
   - If there is no resolution after two hours, escalate the issue by assigning it to the "DDEV Live Support" group.
@@ -129,7 +129,7 @@ A medium status indicates a lower impact problem that involves a partial loss of
 ### Low
 A low status indicates a problem that does not significantly affect system function or operations, including but not limited to feature requests. Low issues expectation is an eight-hour window for initial engagement twenty-four hours a day Monday through Friday.
 
-- Tier One Response
+- **Tier One Response**
   - Evaluate the issue against the definition of a Low issue. If the Low status is not warranted, adjust it to an appropriate level.
   - Spend up to four hours, attempting to resolve the issue by evaluating playbooks or using common sense.
   - If there is no resolution after four hours, escalate the issue by assigning it to the "DDEV Live Support" group.
