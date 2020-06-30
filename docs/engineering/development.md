@@ -1,11 +1,12 @@
 # Development
 ## Development Process
-- Feature requests are [sent to the Product-Pod](../product.md#feature-requests)
-- Once you are assigned a feature to work on validate that it meets the [Definition of Ready](../project.md#definition-of-ready). If it does not, push it back to the appropriate people.
-- Each repository needs to have a manual test plan represented as a checkbox list item. The manual test plan should be stored in the repository at docs/test-plan.md. A good example is visible in the [ddev-live-ui repository](https://github.com/drud/ddev-live-ui/blob/master/docs/test-plan.md).
-- As test plan items are automated they are moved from docs/test-plan.md and listed in docs/test-plan-automated.md.
+- Feature requests are [sent to the Product-Pod](../product.md#feature-requests) and follow the [Product Lifecycle Workflow](../product.md#product-lifecycle-workflow).
+- Once you are assigned an issue to work on validate that it meets the [Definition of Ready](../project.md#definition-of-ready). If it does not, push it back to the author of the issue.
+- Read any associate [Architectural Decision Records](https://adr.github.io/) that have been created during the [Product Lifecycle Workflow](../product.md#product-lifecycle-workflow). These will be stored in the repositories `docs/adr` directory.
+- Each repository needs to have a manual test plan represented as a list of checkbox items. The manual test plan should be stored in the repository at `docs/test-plan.md`. A good example is visible in the [ddev-live-ui repository](https://github.com/drud/ddev-live-ui/blob/master/docs/test-plan.md).
+- As test plan items are automated they are moved from `docs/test-plan.md` and listed in `docs/test-plan-automated.md`.
 - As features are developed the test plan is modified with steps necessary to validate the changes. Code does not get accepted without the ability for other people to validate the work by executing the test plan. If work you are performing modifes the existing test plan you will need to update the test plan to be accurate.
-- In addition to the test plan, additional instructions necessary to perform validation are stored in the repository. Example: use kubectl to run specific commands and verify specific items or log into a third party vendor and validate some dataset. These files are stored in docs/test-validate-name.md where "name" is substituted appropriately. A good example can be seen in the [ddev-live-ui repository](https://github.com/drud/ddev-live-ui/blob/master/docs/test-validate-firebase.md).
+- In addition to the test plan, additional instructions necessary to perform validation are stored in the repository. Examples of this type of additional information include: use kubectl to run specific commands and verify specific items or log into a third party vendor and validate a dataset. These files are stored in `docs/test-validate-name.md` where "name" is substituted appropriately. A good example can be seen in the [ddev-live-ui repository](https://github.com/drud/ddev-live-ui/blob/master/docs/test-validate-firebase.md).
 - Code is pushed to the dev environment as necessary during development.
 - Validate the test plan passes in the dev environment. Do not push code to QA.
 - @TODO update definition of done and link to it
