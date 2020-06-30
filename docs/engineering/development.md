@@ -1,7 +1,7 @@
 # Development
 ## Development Process
-- Feature requests are [sent to the Product-Pod](product/#feature-requests)
-- Once you are assigned a feature to work on validate that it meets the [Definition](/project/#definition-of-ready) [of](/project.md#definition-of-ready) [Ready](project.md#definition-of-ready). If it does not, push it back to the appropriate people.
+- Feature requests are [sent to the Product-Pod](../product.md#feature-requests)
+- Once you are assigned a feature to work on validate that it meets the [Definition of Ready](../project.md#definition-of-ready). If it does not, push it back to the appropriate people.
 - Each repository needs to have a manual test plan represented as a checkbox list item. The manual test plan should be stored in the repository at docs/test-plan.md. A good example is visible in the [ddev-live-ui repository](https://github.com/drud/ddev-live-ui/blob/master/docs/test-plan.md).
 - As test plan items are automated they are moved from docs/test-plan.md and listed in docs/test-plan-automated.md.
 - As features are developed the test plan is modified with steps necessary to validate the changes. Code does not get accepted without the ability for other people to validate the work by executing the test plan. If work you are performing modifes the existing test plan you will need to update the test plan to be accurate.
