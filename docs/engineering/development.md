@@ -28,3 +28,13 @@
 - Cut a tag that reflects the symantic version of the release issue.
 - New release is pushed to production.
 - QA is notified to execute test plan.
+### Versioning
+
+By default, all public facing code repositories will commit to [Semantic Version 2.0.0](https://semver.org/) unless otherwise specified in their respective README.md file. Additional context on this decision can be read in [Ensure ddev is properly utilizing Semantic Versioning](https://github.com/drud/ddev/issues/352)
+
+## Repository Guidelines
+
+All code projects use the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Documentation repositories should use the [Creative Commons License version 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Projects that are being considered for publishing in the DDEV public organization should follow the guidelines and preparation steps outlined in the [Publishing Repositories](development/publishing_repositories.md) documentation.
+
