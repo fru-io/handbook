@@ -1,5 +1,7 @@
 # Support Services
 
+@TODO: Make sure this is actionable and implemented throughout VictorOps, Github, etc.
+
 Drud Technology delivers limited technical support services, including Problem Resolution Support, Engineering Support for DDEV Live, and related products via the [Customer Support Ticketing system](https://support.ddev.com/). Most of the documentation in these procedures is for internal purposes only to give the support team guidelines by which to work tickets. These guidelines may not match public-facing SLAs as we have internal levels of excellence to ensure our platform stays healthy and running.
 
 ## Problem Resolution Support
@@ -59,20 +61,73 @@ Please take the time to [watch this video](https://drive.google.com/file/d/1wJaR
 
 ## Severity Levels
 
-- Support issues are assigned a Severity level reflecting the impact on production operations. 
+Support issues are assigned a Severity level reflecting the impact on production operations. Based on the severity level, the engineer should use the following internal guidelines to determine the timeframe for a response back to the customer.
+
   - **Urgent**: A catastrophic problem that severely impacts the ability to conduct business. This status means that production systems are down (completely non-responsive or not functioning), and no known workaround exists.
   - **High**: A high status indicates a situation in which production operations are disrupted but not fully degraded. In this scenario, a workaround may exist and shared with the customer.
   - **Medium**: A medium status indicates a lower impact problem that involves a partial loss of non-critical functionality. The problem may be a minor issue with limited or no loss of functionality or impact on production operations. A medium status includes administrative requests and errors in the product documentation.
   - **Low**: A low status indicates a problem that does not significantly affect system function or operations, including but not limited to feature requests.
 
-Based on the severity level, the engineer should use the following internal guidelines to determine the timeframe for a response back to the customer.
+
 
 ## Internal Service Level Agreements (SLAs)
-
 | Severity      | Initial Engagement Time |
 | ------------- | ----------------------- | 
 | Urgent        | 60 minutes 24x7         |
 | High          | 2 hours 24x5            |
 | Medium        | 8 hours 24x5            |
 | Low           | 8 hours 24x5            |
- 
+
+## Urgent
+A catastrophic problem that severely impacts the ability to conduct business. This status means that production systems are down (completely non-responsive or not functioning), and no known workaround exists. Urgent issues expectation is a sixty-minute window for initial engagement twenty-four hours a day, seven days a week.
+- Tier One Response
+  - Evaluate the issue against the definition of an Urgent issue. If the Urgent status is not warranted, adjust it to an appropriate level.
+  - Spend up to thirty minutes, attempting to resolve the issue by evaluating playbooks or using common sense.
+  - If there is no resolution after thirty minutes, escalate the issue by creating a VictorOps bridge, which will notify Tier Two engineers to assist.
+  - Remain on the VictorOps bridge taking notes as necessary for use in a post-event write-up.
+  - Give the customer updates every hour about status and progress.
+  - When the issue is resolved, close the customer's issue in our support desk.
+  - Once the issue has a resolution, organize a post-event write-up within twenty-four hours to recap the issue, the solution, and any lessons learned.
+  - Work with a project manager to schedule any Github issues that result from the incident.
+- Tier Two Response
+  - Join the VictorOps bridge and coordinate resolution efforts.
+  - Determine if the DDEV status page needs to be updated to indicate a system-wide impact. If a status page update is necessary, notify the Tier One respondent to manage the updates.
+  - Work with the Tier One respondent to ensure relevant information is captured and communicated as you resolve the issue.
+## High
+A high status indicates a situation in which production operations are disrupted but not fully degraded. In this scenario, a workaround may exist and is shared with the customer. High issues expectation is a two-hour window for initial engagement twenty-four hours a day Monday through Friday.
+- Tier One Response
+  - Evaluate the issue against the definition of a High issue. If the High status is not warranted, adjust it to an appropriate level.
+  - Spend up to one hour, attempting to resolve the issue by evaluating playbooks or using common sense.
+  - If there is no resolution after one hour, escalate the issue by creating a VictorOps bridge, which will notify Tier Two engineers to assist.
+  - Remain on the VictorOps bridge taking notes as necessary for use in a post-event write-up.
+  - Give the customer updates every two hours about status and progress.
+  - When the issue is resolved, close the customer's issue in our support desk.
+  - Once the issue has a resolution, organize a post-event write-up within twenty-four hours to recap the issue, the solution, and any lessons learned.
+  - Work with a project manager to schedule any Github issues that result from the incident.
+- Tier Two Response
+  - Join the VictorOps bridge and coordinate resolution efforts.
+  - Determine if the DDEV status page needs to be updated to indicate a system-wide impact. If a status page update is necessary, notify the Tier One respondent to manage the updates.
+  - Work with the Tier One respondent to ensure relevant information is captured and communicated as you resolve the issue.
+## Medium
+A medium status indicates a lower impact problem that involves a partial loss of non-critical functionality. The problem may be a minor issue with limited or no loss of functionality or impact on production operations. A medium status includes administrative requests and errors in the product documentation. Medium issues expectation is an eight-hour window for initial engagement twenty-four hours a day Monday through Friday.
+- Tier One Response
+  - Evaluate the issue against the definition of a Medium issue. If the Medium status is not warranted, adjust it to an appropriate level.
+  - Spend up to two hours, attempting to resolve the issue by evaluating playbooks or using common sense.
+  - If there is no resolution after two hours, escalate the issue by assigning it to the "DDEV Live Support" group.
+  - Give the customer appropriate updates about status and progress.
+  - If the team is waiting on a customer response the ticket should be set to pending in our support system. Pending issues will ber automatically closed after 72 hours if no response is received from the customer.
+  - If the issue uncovers a feature request follow the process for a submitting a [product feature request](product.md#feature-requests).
+  - When the issue is resolved, close the customer's issue in our support desk.
+  - Once the issue has a resolution, organize a post-event write-up within twenty-four hours to recap the issue, the solution, and any lessons learned.
+  - Work with a project manager to schedule any Github issues that result from the incident.
+## Low
+A low status indicates a problem that does not significantly affect system function or operations, including but not limited to feature requests. Low issues expectation is an eight-hour window for initial engagement twenty-four hours a day Monday through Friday.
+- Tier One Response
+  - Evaluate the issue against the definition of a Low issue. If the Low status is not warranted, adjust it to an appropriate level.
+  - Spend up to four hours, attempting to resolve the issue by evaluating playbooks or using common sense.
+  - If there is no resolution after four hours, escalate the issue by assigning it to the "DDEV Live Support" group.
+  - Give the customer appropriate updates about status and progress.
+  - If the team is waiting on a customer response the ticket should be set to pending in our support system. Pending issues will ber automatically closed after 72 hours if no response is received from the customer.
+  - When the issue is resolved, close the customer's issue in our support desk.
+  - Once the issue has a resolution, organize a post-event write-up within twenty-four hours to recap the issue, the solution, and any lessons learned.
+  - Work with a project manager to schedule any Github issues that result from the incident.
