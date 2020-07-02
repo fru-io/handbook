@@ -11,18 +11,23 @@ nav:
         - Mission Vision Values: company/mission-vision-values.md
         - Expense Policy: company/expense-policy.md
         - PTO Policy: company/pto-policy.md
-        - Slack: company/slack.md
+        - Slack Policy: company/slack.md
     - Pods: pods.md
     - Engineering:
         - Development: engineering/development.md
-        - Pods: engineering/pods.md
+        - Features Pod: engineering/features-pod.md
+        - Ops Pod: engineering/ops-pod.md
         - Support Rotations: engineering/support-rotations.md
         - Support Services: engineering/support-services.md
         - Playbooks: engineering/playbooks.md
-    - Marketing: marketing.md
-    - OKRS: okr/introduction.md
-    - Product: product.md
-    - Project Management: project.md
+    - Marketing:
+        - Marketing Pod: marketing/marketing-pod.md
+    - OKRs: okr/introduction.md
+    - Product:
+        - Product Pod: product/product-pod.md
+        - Lifecycle Workflow: product/product-lifecycle-workflow.md
+    - Project Management:
+        - PM Pod: project-management/pm-pod.md
     - Roadmaps:
         - DDEV-Live: roadmaps/ddev-live.md
 
