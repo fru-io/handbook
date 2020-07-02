@@ -7,9 +7,10 @@ theme:
 
 nav:
     - Home: index.md
-    - Company: company/introduction.md
-        - Development: engineering/development.md
-        - Pods: engineering/pods.md
+    - Company:
+        - Introduction: company/introduction.md
+        - Expense Policy: company/expense.md
+        - PTO Policy: company/pto.md
     - Pods: company/pods.md
     - Engineering:
         - Development: engineering/development.md
