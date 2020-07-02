@@ -10,7 +10,7 @@ nav:
     - Company: company/introduction.md
         - Expense Policy: company/policies/expense.md
         - PTO Policy: company/policies/pto.md
-    - Pods: pods.md
+    - Pods: company/pods.md
     - Engineering:
         - Development: engineering/development.md
         - Pods: engineering/pods.md
