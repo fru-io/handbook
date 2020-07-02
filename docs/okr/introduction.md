@@ -1,0 +1,1 @@
+One of the most significant challenges for any organization is combining every individual's efforts into a cohesive unit. 
