@@ -6,10 +6,13 @@ The structure we currently follow borrows the concept of pods from the Kubernete
 
 Each pod has a [objective](okr/introduction.md), and a pod leader responsible for aligning the pod's members to that [objective](okr/introduction.md) while sharing context that can be understood by other pods.
 
+## Pod Leader Responsibilites
+@TODO
+
 - Engineering
   - [Features Pod](engineering/features-pod.md)
   - [Ops Pod](engineering/ops-pod.md)
 - Product
   - [Product Pod](product/product-pod.md)
 - Project Management
-  - [Project Managemen](project-management/project-management-pod.md)
+  - [Project Management](project-management/pm-pod.md)

@@ -11,6 +11,7 @@ nav:
         - Mission Vision Values: company/mission-vision-values.md
         - Expense Policy: company/expense-policy.md
         - PTO Policy: company/pto-policy.md
+        - Slack: company/slack.md
     - Pods: pods.md
     - Engineering:
         - Development: engineering/development.md
