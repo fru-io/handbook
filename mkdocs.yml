@@ -8,8 +8,8 @@ theme:
 nav:
     - Home: index.md
     - Company: company/introduction.md
-        - Expense Policy: company/expense.md
-        - PTO Policy: company/pto.md
+        - Development: engineering/development.md
+        - Pods: engineering/pods.md
     - Pods: company/pods.md
     - Engineering:
         - Development: engineering/development.md
