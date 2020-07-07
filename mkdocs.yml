@@ -14,9 +14,9 @@ nav:
         - Slack Policy: company/slack.md
     - Pods: pods.md
     - Engineering:
-        - Development: engineering/development.md
         - Features Pod: engineering/features-pod.md
         - Ops Pod: engineering/ops-pod.md
+        - Development: engineering/development.md
         - Support Rotations: engineering/support-rotations.md
         - Support Services: engineering/support-services.md
         - Playbooks: engineering/playbooks.md
