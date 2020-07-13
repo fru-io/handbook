@@ -4,7 +4,7 @@ As an organization, we are continually exploring methods for working together to
 
 The structure we currently follow borrows the concept of pods from the Kubernetes world and applies it to people. Pods should be reasonably autonomous but are required to share context with other pods through established communication interfaces.  Pods are created to perform a specific function and have no predefined lifetime, but generally, focus on quarterly objectives.
 
-Each pod has a [objective](okr/introduction.md), and a pod leader responsible for aligning the pod's members to that [objective](okr/introduction.md) while sharing context that can be understood by other pods.
+Each pod has an [objective](okr/introduction.md), and a pod leader responsible for aligning the pod's members to that [objective](okr/introduction.md) while sharing context that can be understood by other pods.
 
 ## Pod Leader Responsibilites
 @TODO
