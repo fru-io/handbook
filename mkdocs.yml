@@ -28,6 +28,7 @@ nav:
         - Lifecycle Workflow: product/product-lifecycle-workflow.md
     - Project Management:
         - PM Pod: project-management/pm-pod.md
+        - Scrum Process: project-management/scrum.md
     - Roadmaps:
         - DDEV-Live: roadmaps/ddev-live.md
 
