@@ -24,7 +24,7 @@ nav:
     - Marketing:
         - Marketing Pod: marketing/marketing-pod.md
     - OKRs:
-        - 2020 Q3 DDEV-lIVE: okr/2020-q3-ddev-live.md
+        - 2020 Q3 DDEV-Live: okr/2020-q3-ddev-live.md
     - Product:
         - Product Pod: product/product-pod.md
         - Lifecycle Workflow: product/product-lifecycle-workflow.md
