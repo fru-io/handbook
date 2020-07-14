@@ -6,87 +6,105 @@ Phase 1 Project Endor shipped (aha [github](https://github.com/drud/ddev-live-ui
 
 **Business objective**: Customer onboarding with Endor
 
-- 95 percentile site launches under 10 minutes (new effort, measuring this will be a thing in Q2)
-- Tags ([aha](https://drud.aha.io/epics/LIVE-E-57) [github](https://github.com/drud/ddev-live/issues/271))
-  - Must Have
-    - As a user, I want to set tags for my sites so that I can sort them into logical groups.
-    - As a user, I want to remove tags from my sites so that I can re-sort them into logical groups
-    - As the system, I will not accept a tag named production or variations thereof so that I encourage users to use production protection
-    - As a user, I can view the tags applied to resources when I describe them
-  - Should Have
-    - As the system, I will not accept tags prefixed with DDEV or variations thereof so that I can apply feature   tags to users sites
-  - Could Have
-    - As a user, I want to tag backups
-    - As a user, I want to tag databases
-    - As a user, I want to tag execs
-    - As a user, I want to tag restores
-- Production protection ([aha](https://drud.aha.io/features/LIVE-1009) [github](https://github.com/drud/ddev-live/issues/426))
-  - Must have
-    - As a user, I can enable a production setting for a site that labels a site as production, so that I can’t accidently impact a production environment
-    - As a user, I can disable a production protection setting for a site, so that I can make drastic changes to the environment
-    - As a user, I am disallowed from any type of restore action against an production environment
-    - As a user, I can confirm that I wish to bypass production protection by passing a flag to the command line
-  - Should have
-    - As a user with a production protected environment, only tags can be deployed to it
-    - As a user, enabling production protection, also disables the sending x-robots header
-  - Won't Have - Future state
-    - As a user, I can grant specific of my organization permissions to bypass production protections    
-- HTTP(s) access control ([aha](https://drud.aha.io/features/LIVE-1019) [github](https://github.com/drud/ddev-live/issues/425))
-  - Must have
-    - As a user, I can enable username and password protection (htpasswd style) so that only users who know the username and password can access my site
-    - As a user, I can toggle robots access header on and off noindex, nofollow
-  - Should have
-    - As a user, I can specify the username and password so that only authorized users can access my site
-  - Could have
-    - As a user, I can specify a CIDR range to allow to access my site so that I could host my intranet allowing access from my offices IP range
-    - As a user, I can specify a CIDR range to deny to access my site so that I can block sketchy traffic if I need to
-- Organization management ([aha](https://drud.aha.io/epics/LIVE-E-54) [github](https://github.com/drud/ddev-live/issues/36))
-  - Must Have
-    - As a user, I can be an workspace owner
-    - As a user, I can be a billing user
-    - As a user, I can be a developer
-    - As a user, I can be any mix of workspace owner, billing user or developer
-    - As a user, I can have multiple roles or one role depending on my workspace al requirements
-    - As the first user of an workspace , I am the workspace owner
-    - As an workspace , I can have multiple owners
-    - As an workspace , I have to have at least one owner so that I’m not orphaned
-    - As an existing user, I can be added as a member of another workspace
-    - As an existing user, I can be removed as a member of an workspace
-    - As an workspace owner, I can add users to my workspace
-    - As an workspace owner, I can remove users from my workspace
-    - As an workspace owner, I can assign users different user types (owner, billing, user)
-    - As an workspace owner, I can connect one or more git repository sources
-    - As an workspace owner, I can delete git repository sources
-    - As a billing user, I can access only the workspace billing information such as invoices, credit cards, usage.
-    - As a user, I can create sites within workspace s I am a member of based on repositories connected to the workspace
-  - Should have
-    - N/A
-  - Could have
-    - As an workspace owner, I can invite non-existent users to my workspace
-    - As a guest user, I can be invited to an workspace that doesn’t require me to have my own workspace or pay for resources.
-    - As an workspace owner, I can rename my workspace so that I can correct business entities, misspellings, etc.
-  - Won’t have
-    - As a user, I can create custom roles
-    - As a user, I can assign roles permissions
-    - As an workspace owner, I can initiate a transfer of a site I own to another workspace
-    - As an workspace owner, I can accept a transfer of a site from another workspace
-- Customer SDLC ([aha](https://drud.aha.io/features/LIVE-1008) [github](https://github.com/drud/ddev-live/issues/423))
-    - Must have
-      - As a user, I can create a clone of a running site so that I can work on bugs, features, etc in a non-production setting.
-      - As a user, I can sync files and databases between site environments so that I can work with the latest production data.
-      - As the system, we avoid slow file operations like file copies, rsyncs, etc so that a sync operation returns quickly. (Note: we could mount production files as read-only, multithreaded file copy, mc mirror)
-      - As the system, we avoid slow database operations like dumps and imports and other transactions that will impact service to production traffic so that database operations are fast and my site remains available.
-    - Should have
-      - As a user, I can delete cloned sites
-      - As the system, all system resources (files, database assets, etc) are removed when the site is deleted
-    - Could have
-      - As a user, I can specify my clone files and databases as read-only or read-write so that my application state is (im)mutable.
-      - As a user, cloning a site creates a default parent child relationship between the new site and it’s source.
-      - (This really depends on how quickly a clone can be online) As the system, site clones automatically remove themselves after a user configurable amount of time.
-    - Won’t have
-      - As a user who is a member of multiple organizations, I can clone sites between organizations
-      - As a user, I can automatically run sanitization after a sync has completed so that my non-production environment is not polluted by user data.
-      - As a user, my cloned sites automatically sync themselves so that I always have a copy of production
+### 95 percentile site launches under 10 minutes
+### Tags
+
+([aha](https://drud.aha.io/epics/LIVE-E-57) [github](https://github.com/drud/ddev-live/issues/271))
+- Must Have
+  - As a user, I want to set tags for my sites so that I can sort them into logical groups.
+  - As a user, I want to remove tags from my sites so that I can re-sort them into logical groups
+  - As the system, I will not accept a tag named production or variations thereof so that I encourage users to use production protection
+  - As a user, I can view the tags applied to resources when I describe them
+- Should Have
+  - As the system, I will not accept tags prefixed with DDEV or variations thereof so that I can apply feature   tags to users sites
+- Could Have
+  - As a user, I want to tag backups
+  - As a user, I want to tag databases
+  - As a user, I want to tag execs
+  - As a user, I want to tag restores
+
+### Production protection
+
+([aha](https://drud.aha.io/features/LIVE-1009) [github](https://github.com/drud/ddev-live/issues/426))
+
+- Must have
+  - As a user, I can enable a production setting for a site that labels a site as production, so that I can’t accidently impact a production environment
+  - As a user, I can disable a production protection setting for a site, so that I can make drastic changes to the environment
+  - As a user, I am disallowed from any type of restore action against an production environment
+  - As a user, I can confirm that I wish to bypass production protection by passing a flag to the command line
+- Should have
+  - As a user with a production protected environment, only tags can be deployed to it
+  - As a user, enabling production protection, also disables the sending x-robots header
+- Won't Have - Future state
+  - As a user, I can grant specific of my organization permissions to bypass production protections
+  
+### HTTP(s) access control
+
+([aha](https://drud.aha.io/features/LIVE-1019) [github](https://github.com/drud/ddev-live/issues/425))
+
+- Must have
+  - As a user, I can enable username and password protection (htpasswd style) so that only users who know the username and password can access my site
+  - As a user, I can toggle robots access header on and off noindex, nofollow
+- Should have
+  - As a user, I can specify the username and password so that only authorized users can access my site
+- Could have
+  - As a user, I can specify a CIDR range to allow to access my site so that I could host my intranet allowing access from my offices IP range
+  - As a user, I can specify a CIDR range to deny to access my site so that I can block sketchy traffic if I need to
+
+### Organization management
+
+([aha](https://drud.aha.io/epics/LIVE-E-54) [github](https://github.com/drud/ddev-live/issues/36))
+
+- Must Have
+  - As a user, I can be an workspace owner
+  - As a user, I can be a billing user
+  - As a user, I can be a developer
+  - As a user, I can be any mix of workspace owner, billing user or developer
+  - As a user, I can have multiple roles or one role depending on my workspace al requirements
+  - As the first user of an workspace , I am the workspace owner
+  - As an workspace , I can have multiple owners
+  - As an workspace , I have to have at least one owner so that I’m not orphaned
+  - As an existing user, I can be added as a member of another workspace
+  - As an existing user, I can be removed as a member of an workspace
+  - As an workspace owner, I can add users to my workspace
+  - As an workspace owner, I can remove users from my workspace
+  - As an workspace owner, I can assign users different user types (owner, billing, user)
+  - As an workspace owner, I can connect one or more git repository sources
+  - As an workspace owner, I can delete git repository sources
+  - As a billing user, I can access only the workspace billing information such as invoices, credit cards, usage.
+  - As a user, I can create sites within workspace s I am a member of based on repositories connected to the workspace
+- Should have
+  - N/A
+- Could have
+  - As an workspace owner, I can invite non-existent users to my workspace
+  - As a guest user, I can be invited to an workspace that doesn’t require me to have my own workspace or pay for resources.
+  - As an workspace owner, I can rename my workspace so that I can correct business entities, misspellings, etc.
+- Won’t have
+  - As a user, I can create custom roles
+  - As a user, I can assign roles permissions
+  - As an workspace owner, I can initiate a transfer of a site I own to another workspace
+  - As an workspace owner, I can accept a transfer of a site from another workspace
+
+### Customer SDLC
+
+([aha](https://drud.aha.io/features/LIVE-1008) [github](https://github.com/drud/ddev-live/issues/423))
+
+- Must have
+  - As a user, I can create a clone of a running site so that I can work on bugs, features, etc in a non-production setting.
+  - As a user, I can sync files and databases between site environments so that I can work with the latest production data.
+  - As the system, we avoid slow file operations like file copies, rsyncs, etc so that a sync operation returns quickly. (Note: we could mount production files as read-only, multithreaded fil  copy, mc mirror)
+  - As the system, we avoid slow database operations like dumps and imports and other transactions that will impact service to production traffic so that database operations are fast and my sit  remains available.
+- Should have
+  - As a user, I can delete cloned sites
+  - As the system, all system resources (files, database assets, etc) are removed when the site is deleted
+- Could have
+  - As a user, I can specify my clone files and databases as read-only or read-write so that my application state is (im)mutable.
+  - As a user, cloning a site creates a default parent child relationship between the new site and it’s source.
+  - (This really depends on how quickly a clone can be online) As the system, site clones automatically remove themselves after a user configurable amount of time.
+- Won’t have
+  - As a user who is a member of multiple organizations, I can clone sites between organizations
+  - As a user, I can automatically run sanitization after a sync has completed so that my non-production environment is not polluted by user data.
+  - As a user, my cloned sites automatically sync themselves so that I always have a copy of production
 
 
 ## OKR 2: Dashboard site creation and management
