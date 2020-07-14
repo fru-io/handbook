@@ -13,7 +13,6 @@ nav:
         - Out of Office Policy: company/out-of-office-policy.md
         - PTO Policy: company/pto-policy.md
         - Slack Policy: company/slack-policy.md
-    - Pods: pods.md
     - Engineering:
         - Features Pod: engineering/features-pod.md
         - Ops Pod: engineering/ops-pod.md
@@ -29,6 +28,7 @@ nav:
         - Product Pod: product/product-pod.md
         - Lifecycle Workflow: product/product-lifecycle-workflow.md
     - Project Management:
+        - Pods: project-management/pods.md
         - PM Pod: project-management/pm-pod.md
         - Scrum Process: project-management/scrum.md
     - Roadmaps:

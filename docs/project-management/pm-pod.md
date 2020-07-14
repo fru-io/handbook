@@ -1,4 +1,7 @@
 # Project Management
+
+Make sure to read and understand the context of a [Pod](../project-management/pod.md) in our organization.
+
 ## SCRUM and RACI
 When working with issues we use the concept of RACI to help identify the people that are involved. The RACI matrix [can be defined as](https://techblog.constantcontact.com/software-development/scrum-and-raci/):
 - R - Responsible - These are the people who are responsible for doing the work.
