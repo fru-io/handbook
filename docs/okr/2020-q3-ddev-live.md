@@ -152,23 +152,28 @@ Currently, customers have no insight into their application activity, making deb
 
 **Business objective**: Cost management and reporting
 
+### Operational state including cost of customer sites
+
+([aha](https://drud.aha.io/epics/LIVE-E-49) [github](https://github.com/drud/ddev-live/issues/279))
+
 Finishing up instrumentation and monitoring, to include delivery of Customer cost per site
 
-- Key result: operational state including cost of customer sites ([aha](https://drud.aha.io/epics/LIVE-E-49) github)
+### Planning for Data center Deutschland
+
+([aha](https://drud.aha.io/epics/LIVE-E-62) [github](https://github.com/drud/ddev-live/issues/424))
 
 Planning and PoC for what running and managing workloads in a second GCP region looks like
 
-- Planning for Data center Deutschland ([aha](https://drud.aha.io/epics/LIVE-E-62) [github](https://github.com/drud/ddev-live/issues/424))
-  - Must have
-    - As a user, I can run my application workloads in other available regions so that my customer and visitor privacy and data sovereignty can be maintained
-    - As a user, I want my files located in the same region that my application is running
-    - As a user, I want my backups located in the same region that my application is running
-    - As a user, I want my database running in the same region that my application is running
-  - Should have
-    - As the system, I abstract the underlying Google Cloud regions eg. eu-frankfurt=europe-west3, europe=any region we are running in europe, usa= any region we are running in the us
-  - Could have
-    - As a user, I want my site builds to happen in the same region where my application will run
-  - Won’t have
-    - As a user, I can run my application across multiple regions
-    - As a user, I can restore backups between regions
-    - As a user, I can modify the region where my site is running
+- Must have
+  - As a user, I can run my application workloads in other available regions so that my customer and visitor privacy and data sovereignty can be maintained
+  - As a user, I want my files located in the same region that my application is running
+  - As a user, I want my backups located in the same region that my application is running
+  - As a user, I want my database running in the same region that my application is running
+- Should have
+  - As the system, I abstract the underlying Google Cloud regions eg. eu-frankfurt=europe-west3, europe=any region we are running in europe, usa= any region we are running in the us
+- Could have
+  - As a user, I want my site builds to happen in the same region where my application will run
+- Won’t have
+  - As a user, I can run my application across multiple regions
+  - As a user, I can restore backups between regions
+  - As a user, I can modify the region where my site is running
