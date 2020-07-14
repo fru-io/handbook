@@ -10,6 +10,7 @@ nav:
     - Company:
         - Mission Vision Values: company/mission-vision-values.md
         - Expense Policy: company/expense-policy.md
+        - Out of Office Policy: company/out-of-office.md
         - PTO Policy: company/pto-policy.md
         - Slack Policy: company/slack.md
     - Pods: pods.md
