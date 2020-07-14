@@ -12,7 +12,7 @@ nav:
         - Expense Policy: company/expense-policy.md
         - Out of Office Policy: company/out-of-office-policy.md
         - PTO Policy: company/pto-policy.md
-        - Slack Policy: company/slack.md
+        - Slack Policy: company/slack-policy.md
     - Pods: pods.md
     - Engineering:
         - Features Pod: engineering/features-pod.md
@@ -23,7 +23,8 @@ nav:
         - Playbooks: engineering/playbooks.md
     - Marketing:
         - Marketing Pod: marketing/marketing-pod.md
-    - OKRs: okr/introduction.md
+    - OKRs:
+        - 2020 Q3 DDEV-lIVE: okr/2020-q3-ddev-live.md
     - Product:
         - Product Pod: product/product-pod.md
         - Lifecycle Workflow: product/product-lifecycle-workflow.md
