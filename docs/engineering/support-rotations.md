@@ -47,7 +47,6 @@ The members of our Tier Two team are:
 - [Nic Hima](https://github.com/nic-hima)
 - [Derek Lemon](https://github.com/drekle)
 - [Nathan Smith](https://github.com/alkymst)
-- [Shawn Stratton](https://github.com/mfacenet)
 - [Jan Wozniak](https://github.com/wozniakjan)
 - [Jason Roberts](https://github.com/jrthrawny)
 
