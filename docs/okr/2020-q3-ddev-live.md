@@ -7,9 +7,11 @@ Phase 1 Project Endor shipped (aha [github](https://github.com/drud/ddev-live-ui
 **Business objective**: Customer onboarding with Endor
 
 ### 95 percentile site launches under 10 minutes
+
 ### Tags
 
 ([aha](https://drud.aha.io/epics/LIVE-E-57) [github](https://github.com/drud/ddev-live/issues/271))
+
 - Must Have
   - As a user, I want to set tags for my sites so that I can sort them into logical groups.
   - As a user, I want to remove tags from my sites so that I can re-sort them into logical groups
@@ -111,33 +113,40 @@ Phase 1 Project Endor shipped (aha [github](https://github.com/drud/ddev-live-ui
 
 **Business objective**: Customers are able to deploy and manage sites via the UI
 
+
+### Key result: UI API 
+
+([aha](https://drud.aha.io/features/LIVE-1021) [github](https://github.com/drud/ddev-live-ui/issues/396))
+
 Engineering has created a new API that enables the UI to better manage and handle requests to the backend. This will enable more robust site creation and management via the UI.
 
-- Key result: UI API ([aha](https://drud.aha.io/features/LIVE-1021) [github](https://github.com/drud/ddev-live-ui/issues/396))
-  - [ADR](https://github.com/drud/ddev-live-ui/issues/445)
-  - PoC integration of that API with the UI
-  - Identify and address any gaps, or specific UI requirements in the implementation of the APIs and get that into the development queue
+- [ADR](https://github.com/drud/ddev-live-ui/issues/445)
+- PoC integration of that API with the UI
+- Identify and address any gaps, or specific UI requirements in the implementation of the APIs and get that into the development queue
+
+### Customer logging
+
+([aha](https://drud.aha.io/features/LIVE-1010) [github](https://github.com/drud/ddev-live/issues/422))
 
 Currently, customers have no insight into their application activity, making debugging, auditing, and site visitor activity difficult.
 
-- Customer logging ([aha](https://drud.aha.io/features/LIVE-1010) [github](https://github.com/drud/ddev-live/issues/422))
-  - Must have
-    - A user can view their sites logs so that they can understand the happenings of their site
-    - A user can view their sites PHP error logs
-    - A user can view their sites HTTPD access and error logs
-    - A user can view their sites MySQL slow query and mysqld logs where possible
-    - A user can view their non-aggregated adhoc command logs (exists already)
-    - A user can view an individual services logs so that they are able to understand what is happening within that service
-    - A user can follow all sites logs
-    - A user can follow a specific service log
-    - A user can view their visitors IP addresses in their sites HTTPD logs
-  - Should have
-    - As the system, we have reasonable log retention policies
-    - As the system, I can support custom log retention policies that override defaults
-  - Could have
-    - A user can view their sites build log
-  - Won’t have
-    - A user can ingest all site logs into a 3rd party logging service (likely a future enterprise option)
+- Must have
+  - A user can view their sites logs so that they can understand the happenings of their site
+  - A user can view their sites PHP error logs
+  - A user can view their sites HTTPD access and error logs
+  - A user can view their sites MySQL slow query and mysqld logs where possible
+  - A user can view their non-aggregated adhoc command logs (exists already)
+  - A user can view an individual services logs so that they are able to understand what is happening within that service
+  - A user can follow all sites logs
+  - A user can follow a specific service log
+  - A user can view their visitors IP addresses in their sites HTTPD logs
+- Should have
+  - As the system, we have reasonable log retention policies
+  - As the system, I can support custom log retention policies that override defaults
+- Could have
+  - A user can view their sites build log
+- Won’t have
+  - A user can ingest all site logs into a 3rd party logging service (likely a future enterprise option)
 
 ## OKR 3: Monitoring, site costing, & capacity planning
 
