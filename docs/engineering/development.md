@@ -22,7 +22,7 @@
 - Update docs/test-plan.md with the updated content from the release issue if it has been modified by the QA team.
 - Repeat the QA process until the test plan passes and then move on to the Release Process.
 ### Release Process
-- @TODO expand this to include release process from Shawn
+- @TODO expand this to include release process from ops-pod
 - @TODO explain how a release update that outlines what has been released is generated.
 - Update statuspage.io to reflect the upcoming release. This is ideally done with at least 24 hours before the release occurs.
 - Release does not happen until test plan is validated and docs/test-plan.md is accurate.
