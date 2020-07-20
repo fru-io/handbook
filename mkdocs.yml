@@ -1,8 +1,4 @@
 site_name: DDEV Handbook
-theme:
-  name: 'material'
-  palette:
-    primary: 'light-blue'
 nav:
     - Home: index.md
     - Company:
@@ -47,3 +43,7 @@ plugins:
         locale: en
 extra_javascript:
   - 'js/extra.js'
+theme:
+  name: 'material'
+  palette:
+    primary: 'light-blue'
