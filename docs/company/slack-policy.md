@@ -53,7 +53,7 @@
 ## Slack Groups
 You can ping specific department groups to alert the members in that group.
 
-- ##@admins## - Administrators that can assist with Slack related issues or applications.
+- **@admins** - Administrators that can assist with Slack related issues or applications.
 
 ## Room Guide
 
