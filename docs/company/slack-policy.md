@@ -19,6 +19,7 @@
 - Fill out your Slack profile
 - https://hbr.org/2016/11/how-to-write-email-with-military-precision
   - This article is mostly about email, but it does offer great guidance on writing clearly, and effectively.
+- Not everyone appreciates the link previews that are enabled by default in Slack. [Follow these instructions](https://slack.com/help/articles/204399343-Share-links-and-set-preview-preferences#turn_off) if you would prefer to disable them.
 
 ## Etiquette
 
@@ -73,6 +74,5 @@ You can ping specific department groups to alert the members in that group.
   - feed-(purpose)
     - Mostly for removing automated messages from channels
 - Develop emoji as codes ?s for questions, checkboxes for request completions, polite racoon for out of topic changes
-- Disable link previews?
 - Create private channels not group DMs
 - A #help channel
