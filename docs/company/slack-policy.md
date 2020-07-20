@@ -49,6 +49,11 @@
 - You can join and leave channels as you wish
 - If you need to escalate to another team or team-mate, ensure that urgency and criticality are understood and continue to escalate until they are understood
   - For instance, a casual mention of an issue in a general channel is not a proper escalation
+  
+## Slack Groups
+You can ping specific department groups to alert the members in that group.
+
+- ##@admins## - Administrators that can assist with Slack related issues or applications.
 
 ## Room Guide
 
