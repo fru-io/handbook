@@ -23,14 +23,7 @@ Rotations are static based on the number of people on a team, so you need to ens
 Each shift within a rotation will have a Tier One and Tier Two person assigned. Alerts are sent to teams through the #support channel in slack, through the VictorOps app if they do not receive a timely response, and finally via direct phone calls.
 
 ## Tier One Team
-The Tier One team is customer-facing and might not have deep systems access. The expectation for all teams is that you respond promptly and empathetically to incoming issues.
-
-The members of our Tier One Team are:
-- [Steve Grandchamp](https://github.com/sgrandchamp)
-- [Pete Galligan](https://github.com/pgalligan80126)
-- [Kevin Bridges](https://github.com/cyberswat)
-- [David Stoline](https://github.com/unn)
-- [Elli Ludwigson](https://github.com/ekl1773)
+The Tier One team is customer-facing and might not have deep systems access. The expectation for all teams is that you respond promptly and empathetically to incoming issues. The [Tier One roster](https://portal.victorops.com/dash/drud-technology#/team/team-AZxxsZnzlkkVmZ8T/users) is available in VictorOps.
 
 Tier One team responsibilities include:
 - Ensure response to all low priority tickets has gone out within 8 hours or the next business day. Metrics are recorded and used to measure our success.
@@ -40,15 +33,7 @@ Tier One team responsibilities include:
 - Attend a weekly support recap meeting at the end of your rotation (if requested) to flag tickets that are important for user documentation and or FAQ. Offer suggestions on how we might improve the support offering.  Help the documentation person identify patterns and high repeat tickets.
 
 ## Tier Two Team
-The Tier Two team is responsible for supporting the Tier One team, infrastructure level operations, deployment pipelines, releases, and platform uptime from a technical perspective.
-
-The members of our Tier Two team are:
-- [Josef Karasek](https://github.com/josefkarasek)
-- [Nic Hima](https://github.com/nic-hima)
-- [Derek Lemon](https://github.com/drekle)
-- [Nathan Smith](https://github.com/alkymst)
-- [Jan Wozniak](https://github.com/wozniakjan)
-- [Jason Roberts](https://github.com/jrthrawny)
+The Tier Two team is responsible for supporting the Tier One team, infrastructure level operations, deployment pipelines, releases, and platform uptime from a technical perspective. The [Tier Two roster](https://portal.victorops.com/dash/drud-technology#/team/team-RdGaM2RWFSNUI50i/users) is available in VictorOps.
 
 Tier Two team responsibilities include:
 - Respond to all high priority tickets within two hours during weekdays. Ensure these issues have accompanying notifications from VictorOps and are acknowledged and resolved accordingly.
