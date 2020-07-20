@@ -49,11 +49,23 @@
 - You can join and leave channels as you wish
 - If you need to escalate to another team or team-mate, ensure that urgency and criticality are understood and continue to escalate until they are understood
   - For instance, a casual mention of an issue in a general channel is not a proper escalation
+  
+## Slack Groups
+You can ping specific department groups to alert the members in that group.
+
+- **@admins** - Administrators that can assist with Slack related issues or applications.
+
+## Room Guide
+
+- **#welcome** - Company wide channel for general Q&A. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
+- **#general** - Company wide channel for official announcements. Only administrators can post in this channel. It is for official use and you are expected to monitor the channel.
+
+### Feed Channels
+
+- **#feed-github** - You can use `/github subscribe list` to see the repositories that feed this channel. Ping @admin if you would like to modify the list.
 
 ## Recommendations for updates to our workflows
 
-- Create a #welcome channel and set as default
-- Only allow admins to post in #general
 - Regularly purge dead or defunct channels with automation
 - Develop some channel naming standardizations
   - team name-purpose
