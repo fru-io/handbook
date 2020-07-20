@@ -60,6 +60,10 @@ You can ping specific department groups to alert the members in that group.
 - **#welcome** - Company wide channel for general Q&A. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
 - **#general** - Company wide channel for official announcements. Only administrators can post in this channel. It is for official use and you are expected to monitor the channel.
 
+### Feed Channels
+
+- **#feed-github** - You can use `/github subscribe list` to see the repositories that feed this channel. Ping @admin if you would like to modify the list.
+
 ## Recommendations for updates to our workflows
 
 - Regularly purge dead or defunct channels with automation
