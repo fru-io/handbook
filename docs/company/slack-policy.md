@@ -65,13 +65,29 @@ You can ping specific department groups to alert the members in that group.
 
 ### Company-Wide Communication
 
-- **#welcome** - Company wide channel for general Q&A. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
 - **#general** - Company wide channel for official announcements. Only administrators can post in this channel. It is for official use and you are expected to monitor the channel.
+- **#welcome** - Company wide channel for general Q&A. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
+- **#people-services** - Use this channel to announce when you will be away from the keyboard for extended periods. Offical PTO requests should go through Bamboo. This channel is meant more as a courtesy to your team mates and managers.
 
 ### Company Products
 
 - **#ddev** - Conversations related to the DDEV-Local product that are not pod specific.
 - **#ddev-live** - Conversations related to the DDEV-Live product that are not pod specific.
+
+### Pod Channels
+
+Pod channels are working rooms for human communication. They should not contain automated messages and are team specific.
+
+- **#pod-events** - A room for discussing and planning events.
+- **#pod-features** - A room for discussing and planning work related to the features pod.
+- **#pod-images** - A room for discussing and planning work related to aligning images between local and live.
+- **#pod-leads** - A room for people serving in the pod lead role to communicate amongst each other and receive assistance.
+- **#pod-marketing** - A room for discussing and planning work related to the marketing pod.
+- **#pod-ops** - A room for discussing and planning work related to the ops pod.
+- **#pod-pm** - A room for discussing and planning work related to the project management pod.
+- **#pod-qa** - A room for discussing and planning work related to quality assurance and testing.
+- **#pod-security** - A room for discussing and planning work related to security.
+- **#pod-support** - A room for discussing and planning work related to support efforts.
 
 ### Feed Channels
 
@@ -86,14 +102,15 @@ Feed channels are automated rooms that receive incoming traffic from external se
 - **#feed-stand-ups** - A feed of stand up and retrospective information from geekbot.
 - **#feed-websites** - Automated information for the drud/ddevcom GitHub repository.
 
+### External Channels
+
+External channels are cross organization communication channels.
+
+- **#external-drupal-ddev** - External channel with technical folks from the Drupal Association.
+
 ## Recommendations for updates to our workflows
 
 - Regularly purge dead or defunct channels with automation
-- Develop some channel naming standardizations
-  - team name-purpose
-  - external to the name of any channel with access for guests
-  - feed-(purpose)
-    - Mostly for removing automated messages from channels
 - Develop emoji as codes ?s for questions, checkboxes for request completions, polite racoon for out of topic changes
 - Create private channels not group DMs
 - A #help channel
