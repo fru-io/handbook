@@ -63,12 +63,28 @@ You can ping specific department groups to alert the members in that group.
 
 ## Room Guide
 
+### Company-Wide Communication
+
 - **#welcome** - Company wide channel for general Q&A. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
 - **#general** - Company wide channel for official announcements. Only administrators can post in this channel. It is for official use and you are expected to monitor the channel.
 
+### Company Products
+
+- **#ddev** - Conversations related to the DDEV-Local product that are not pod specific.
+- **#ddev-live** - Conversations related to the DDEV-Live product that are not pod specific.
+
 ### Feed Channels
 
-- **#feed-github** - You can use `/github subscribe list` to see the repositories that feed this channel. Ping @admin if you would like to modify the list.
+Feed channels are automated rooms that receive incoming traffic from external services. The intent of these rooms is observational suggesting that conversation should happen in the Company Product or Pod rooms.
+
+- **#feed-builds** - Automated information from different build pipelines and service providers
+- **#feed-cli** - Automated information for the drud/ddev-live-cli GitHub repository.
+- **#feed-cloud-ops** - Automated information for container registries, VictorOps, and StatusPages.
+- **#feed-docs** - Automated information for the drud/docs GitHub repository.
+- **#feed-github** - Automated information for various Github repositories that do not receive enough traffic to warrant a dedicated channel.
+- **#feed-poker-planner** - A channel meant for the poker-planner bot to solicit estimations to assist with project planning.
+- **#feed-stand-ups** - A feed of stand up and retrospective information from geekbot.
+- **#feed-websites** - Automated information for the drud/ddevcom GitHub repository.
 
 ## Recommendations for updates to our workflows
 
