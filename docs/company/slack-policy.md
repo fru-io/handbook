@@ -55,6 +55,11 @@
 You can ping specific department groups to alert the members in that group.
 
 - **@admins** - Administrators that can assist with Slack related issues or applications.
+- **@features** - This will ping everyone associated with the Features Pod.
+- **@marketing** - This will ping everyone associated with the Marketing Pod.
+- **@ops** - This will ping everyone associated with the Ops Pod.
+- **@pm** - This will ping everyone associated with the Project Management Pod.
+- **@product** - This will ping everyone associated with the Product Pod.
 
 ## Room Guide
 
