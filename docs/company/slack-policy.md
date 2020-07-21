@@ -66,6 +66,7 @@ You can ping specific department groups to alert the members in that group.
 ### Company-Wide Communication
 
 - **#general** - Company wide channel for official announcements. Only administrators can post in this channel. It is for official use and you are expected to monitor the channel.
+- **#help** - This is where you can go to receive assistance with any topic. It can be useful when you aren't sure about where to communicate a specific piece of information or for general help requests.
 - **#welcome** - Company wide channel for general Q&A. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
 - **#people-services** - Use this channel to announce when you will be away from the keyboard for extended periods. Offical PTO requests should go through Bamboo. This channel is meant more as a courtesy to your team mates and managers.
 
