@@ -81,7 +81,7 @@ Feed channels are automated rooms that receive incoming traffic from external se
 - **#feed-cli** - Automated information for the drud/ddev-live-cli GitHub repository.
 - **#feed-cloud-ops** - Automated information for container registries, VictorOps, and StatusPages.
 - **#feed-docs** - Automated information for the drud/docs GitHub repository.
-- **#feed-github** - Automated information for various Github repositories that do not receive enough traffic to warrant a dedicated channel.
+- **#feed-github** - Automated information for various Github repositories that have not been moved to a dedicated channel. Automated pull request reminders for all drud repositories.
 - **#feed-poker-planner** - A channel meant for the poker-planner bot to solicit estimations to assist with project planning.
 - **#feed-stand-ups** - A feed of stand up and retrospective information from geekbot.
 - **#feed-websites** - Automated information for the drud/ddevcom GitHub repository.
