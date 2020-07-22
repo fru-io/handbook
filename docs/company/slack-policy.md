@@ -60,6 +60,7 @@ You can ping specific department groups to alert the members in that group.
 - **@ops** - This will ping everyone associated with the Ops Pod.
 - **@pm** - This will ping everyone associated with the Project Management Pod.
 - **@product** - This will ping everyone associated with the Product Pod.
+- **@ux** - This will ping everyone associated with the UX Pod.
 
 ## Room Guide
 
@@ -69,6 +70,7 @@ You can ping specific department groups to alert the members in that group.
 - **#help** - This is where you can go to receive assistance with any topic. It can be useful when you aren't sure about where to communicate a specific piece of information or for general help requests.
 - **#welcome** - Company wide channel for general Q&A. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
 - **#people-services** - Use this channel to announce when you will be away from the keyboard for extended periods. Offical PTO requests should go through Bamboo. This channel is meant more as a courtesy to your team mates and managers.
+- **watercooler** - Company wide channel for watercooler conversations. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
 
 ### Company Products
 
@@ -86,9 +88,11 @@ Pod channels are working rooms for human communication. They should not contain 
 - **#pod-marketing** - A room for discussing and planning work related to the marketing pod.
 - **#pod-ops** - A room for discussing and planning work related to the ops pod.
 - **#pod-pm** - A room for discussing and planning work related to the project management pod.
+- **#pod-product** - A room for discussing and planning product related work. 
 - **#pod-qa** - A room for discussing and planning work related to quality assurance and testing.
 - **#pod-security** - A room for discussing and planning work related to security.
 - **#pod-support** - A room for discussing and planning work related to support efforts.
+- **#pod-ux** - A room for discussing and planning work related to the UX pod.
 
 ### Feed Channels
 
@@ -114,4 +118,3 @@ External channels are cross organization communication channels.
 - Regularly purge dead or defunct channels with automation
 - Develop emoji as codes ?s for questions, checkboxes for request completions, polite racoon for out of topic changes
 - Create private channels not group DMs
-- A #help channel
