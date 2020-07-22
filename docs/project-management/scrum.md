@@ -64,6 +64,8 @@ Agenda:
 
 We eliminate the daily standup form on Geekbot. Daily standups are handled verbally in their respective Zoom standups. Breakout decisions are recorded on their related issues. 
 
+If people are going to miss the daily standup on Zoom, they are encourage to manually file a standup via Geekbot: direct message the Geekbot app with the command `report`.
+
 **Thursday -> Friday**
 - Every Thursday (due Friday by start of Weekly Review), there is a Geekbot OKR-focused report that is filled out by the team. It includes the questions:
   - What OKR-related tasks did I complete this week?
