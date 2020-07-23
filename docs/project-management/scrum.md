@@ -38,7 +38,7 @@ Standard scrum standup for engineers. All engineers are required to attend.
 
 Agenda:
 
-- 9:00 - 9:15: Daily Standup on Zoom
+- 9:30 - 9:45: Daily Standup on Zoom
   - Each engineer gives a daily 3-question standup:
     - What have I completed since the last meeting?
     - What do I plan to complete by the next meeting?
