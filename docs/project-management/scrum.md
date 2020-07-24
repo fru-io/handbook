@@ -7,7 +7,7 @@ We want to support 2 simultaneous and related communication channels, each with 
 
 The business / product group requires a daily standup to work through blockers and open questions on roadmap and planning. Examples are: user stories and business requirements, OKR quarterly planning. This meeting should inform on priorities, timelines and deliverables. It should also provide a venue to flag product-level decisions requested from the engineering team.
 
-In Q2 2020, a Scrum of Scrums standup was an attempt to address this, using pod leads. However, there was an un-intended consequence of pods being disconnected, and a missing space for technical conversations and troubleshooting, which the previous engineering standup format allowed for. It also was at risk of becoming a `status update` meeting, which is not the intent of the scrum team standup.
+In Q2 2020, a Scrum of Scrums standup was an attempt to address this, using pod leads. However, there was an unintended consequence of pods being disconnected, and a missing space for technical conversations and troubleshooting, which the previous engineering standup format allowed for. It also was at risk of becoming a `status update` meeting, which is not the intent of the scrum team standup.
 
 Additionally, while the Geekbot written standup socializes everyone’s standup, it doesn’t create a predictable follow-up space for breakouts. It’s a lot of reading, every day. And we risk losing visibility on week-to-week, high-level goal progress (OKRs).
 
@@ -38,7 +38,7 @@ Standard scrum standup for engineers. All engineers are required to attend.
 
 Agenda:
 
-- 9:00 - 9:15: Daily Standup on Zoom
+- 9:30 - 9:45: Daily Standup on Zoom
   - Each engineer gives a daily 3-question standup:
     - What have I completed since the last meeting?
     - What do I plan to complete by the next meeting?
