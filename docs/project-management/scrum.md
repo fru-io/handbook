@@ -1,8 +1,6 @@
 # Scrum Meetings and Standups
 
-Each quarter, we have three 3-week sprints, followed by a final 4-week sprint.
-
-Each sprint consists of the following recurring meetings:
+Each quarter, we have three 3-week sprints, followed by a final 4-week sprint. Each sprint consists of the following recurring meetings:
 
 1. Daily Standup - every day (other than sprint review, sprint retro, and sprint planning days)
     - Breakouts
@@ -69,7 +67,7 @@ Agenda:
 - 9:45 - 10:00: Breakout.
   - Product / Business team joins
  
-Standup Best Practices: 
+**Standup Best Practices:** 
 * Standup is specific to current sprint
 * Meeting starts on time. Anyone can and should start it on time. 
 * Pass the baton after your standup.
