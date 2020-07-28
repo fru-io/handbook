@@ -11,7 +11,7 @@
 - Making and codifying decisions
   - Decisions and action items should be codified in a relevant tickets and systems of record
 
-## General guidance 
+## General guidance
 
 - Default to public channels
 - Proactive communications
@@ -50,7 +50,7 @@
 - You can join and leave channels as you wish
 - If you need to escalate to another team or team-mate, ensure that urgency and criticality are understood and continue to escalate until they are understood
   - For instance, a casual mention of an issue in a general channel is not a proper escalation
-  
+
 ## Slack Groups
 You can ping specific department groups to alert the members in that group.
 
@@ -88,7 +88,7 @@ Pod channels are working rooms for human communication. They should not contain 
 - **#pod-marketing** - A room for discussing and planning work related to the marketing pod.
 - **#pod-ops** - A room for discussing and planning work related to the ops pod.
 - **#pod-pm** - A room for discussing and planning work related to the project management pod.
-- **#pod-product** - A room for discussing and planning product related work. 
+- **#pod-product** - A room for discussing and planning product related work.
 - **#pod-qa** - A room for discussing and planning work related to quality assurance and testing.
 - **#pod-security** - A room for discussing and planning work related to security.
 - **#pod-support** - A room for discussing and planning work related to support efforts.
@@ -116,5 +116,5 @@ External channels are cross organization communication channels.
 ## Recommendations for updates to our workflows
 
 - Regularly purge dead or defunct channels with automation
-- Develop emoji as codes ?s for questions, checkboxes for request completions, polite racoon for out of topic changes
+- Develop emoji as codes ?s for questions, checkboxes for request completions, [polite racoon for out of topic changes](https://techcrunch.com/2017/12/04/how-slack-uses-a-raccoon-to-keep-distractions-on-slack-at-bay/)
 - Create private channels not group DMs
