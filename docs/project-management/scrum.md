@@ -15,7 +15,7 @@ Lastly, scrum fails if it becomes too much of a management-driven process. The s
 
 # Process Changes
 
-## Monday - Thursday, weeks 1-2 of sprint.
+## Monday & Wednesday, weeks 1-2 of sprint.
 
 **9:00 am - 9:30 am MST: Daily Product / Business Standup**
 
@@ -23,13 +23,10 @@ Consists of ET, product, marketing, sales, and project management.
 
 Agenda:
 
-- 9:00 - 9:15: Daily Standup on Zoom
-  - Each participant gives a daily 3-question standup:
-    - What have I completed since the last meeting?
-    - What do I plan to complete by the next meeting?
-    - What is blocking me?
-- 9:15 - 9:30: Breakout.
-  - Open discussion on sprint / OKR planning, sales opportunities, events, and product decisions flagged by engineering.
+- 9:00 - 9:30: Standup on Zoom
+  - Each participant can raise immediate priorities:
+    - What Is Top-of-Mind?
+  - This is open, round-table discussion on sprint / OKR planning, sales opportunities, events, and product decisions flagged by engineering.
   - Business rule: decisions are documented in relevant Github or Asana issue.
 
 **9:30 am - 10:00 AM MST: Daily Engineering Standup**
