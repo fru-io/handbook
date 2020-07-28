@@ -42,7 +42,16 @@ Agenda:
     - What is blocking me?
 - 9:45 - 10:00: Breakout.
   - Product / Business team joins
-  - Business Rule: whoever is calling for breakout screen-shared the relevant Github issue with the meeting and is responsible for documenting any decisions made on the call on the issue, tagging stakeholders on the issue. 
+ 
+Standup Best Practices: 
+* Standup is specific to current sprint
+* Meeting starts on time. Anyone can and should start it on time. 
+* Pass the baton after your standup.
+* Discussion / action items are saved for breakout immediately after the standup
+* Anyone can call for a breakout convo after the standup
+* Anyone can listen in on breakout, anyone can leave
+* Whoever is calling for breakout should share the relevant Github issue
+* Whoever is calling for breakout is responsible for documenting any decisions made on the call on the issue 
 
 ## Fridays, weeks 1-2 of sprint. (no standups)
 
