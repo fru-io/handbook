@@ -1,4 +1,4 @@
-# Scrum
+# Daily Standups
 
 We need to support 2 simultaneous and related communication channels, each with a different audience and vocabulary. We are struggling to fit 2 different meetings into one format or the other with both groups, leaving gaps for both.
 
