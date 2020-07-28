@@ -93,7 +93,7 @@ When working with issues we use the concept of RACI to help identify the people 
 - F - Facilitator - These people help facilitate communication and information across the team.
 
 In general, the Definition of Ready is:
-- R - Product / Product management
+- R - Product & Project management
 
 And the Definition of Done is:
 - R - Engineering
