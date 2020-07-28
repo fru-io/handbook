@@ -94,6 +94,7 @@ When working with issues we use the concept of RACI to help identify the people 
 
 In general, the Definition of Ready is:
 - R - Product / Product management
+
 And the Definition of Done is:
 - R - Engineering
 
