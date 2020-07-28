@@ -1,5 +1,32 @@
-# Daily Standups
+# Scrum Meetings and Standups
 
+Each quarter, we have three 3-week sprints, followed by a final 4-week sprint.
+
+Each sprint consists of the following recurring meetings:
+
+1. Daily Standup - every day (other than sprint review, sprint retro, and sprint planning days)
+    - Breakouts
+2. Sprint Review - last day of sprint, Wednesdays
+3. Retro - Day 0 of sprint, Thursdays
+4. Sprint Planning - start of new sprint, Fridays
+
+*Ad-hoc meetings, as needed:*
+
+1. Grooming / roadmap planning
+2. Architecture planning
+3. Dedicated breakouts
+
+**Sprint Docs/Tools:**
+
+1. [Sprint Planning sheet](https://docs.google.com/spreadsheets/d/1duRl_s9tLUqD0Ue6A00K6JptLKnpKlHlu0QGEVF-V9o/edit#gid=1260242160)
+2. [Zenhub Sprint Board](https://github.com/drud/ddev-live#workspaces/live-sprint-board-5c12b9efb04bc065896835fd/board)
+3. [Team drive - recordings from a given sprint](https://drive.google.com/drive/folders/1jevaxd7oxrP0R8DztWhxP3SJTTQbUK9E)
+4. Poker Planner - #feed-poker-planner in slack
+5. [Reporting in Zenhub](https://github.com/drud/ddev-live#workspaces/live-sprint-board-5c12b9efb04bc065896835fd/reports/overview)
+6. [OKRs in Gdocs](https://docs.google.com/spreadsheets/d/1EOsHMUsr4KxDw19oMXGypGzunC7jyy2aXe1HUeLLhCk/edit#gid=1399614669)
+
+
+# Updates to Process Changes - Q3 2020
 We need to support 2 simultaneous and related communication channels, each with a different audience and vocabulary. We are struggling to fit 2 different meetings into one format or the other with both groups, leaving gaps for both.
 
 - Business / Product / Marketing / Management
@@ -13,7 +40,6 @@ While the Geekbot standup socializes everyone’s standup, it doesn’t create a
 
 Lastly, scrum fails if it becomes too much of a management-driven process. The scrum team needs to be empowered to self-assess and continually improve its own processes, communications, and team-work. This is unlikely to happen if daily scrum meetings are run by or geared towards status reporting to management.
 
-# Process Changes
 
 ## Monday & Wednesday, weeks 1-2 of sprint.
 
