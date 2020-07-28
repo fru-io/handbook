@@ -26,7 +26,7 @@ Each sprint consists of the following recurring meetings:
 6. [OKRs in Gdocs](https://docs.google.com/spreadsheets/d/1EOsHMUsr4KxDw19oMXGypGzunC7jyy2aXe1HUeLLhCk/edit#gid=1399614669)
 
 
-# Updates to Process Changes - Q3 2020
+# Process Changes - Q3 2020
 We need to support 2 simultaneous and related communication channels, each with a different audience and vocabulary. We are struggling to fit 2 different meetings into one format or the other with both groups, leaving gaps for both.
 
 - Business / Product / Marketing / Management
