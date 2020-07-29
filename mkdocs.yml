@@ -25,6 +25,7 @@ nav:
         - Pods: project-management/pods.md
         - PM Pod: project-management/pm-pod.md
         - Scrum Process: project-management/scrum.md
+        - DoD, DoR, RACI: project-management/dod-dor-raci.md
     - Roadmaps:
         - DDEV-Live: roadmaps/ddev-live.md
 markdown_extensions:
