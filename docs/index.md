@@ -26,5 +26,6 @@ The purpose of this handbook is to help you understand how DDEV works as an orga
 - [Pods](project-management/pods.md)
 - [PM Pod](project-management/pm-pod.md)
 - [Scrum Process](project-management/scrum.md)
+- [DoD, DoR, RACI](project-management/dor-dod-raci.md)
 ## Roadmaps
 - [DDEV-Live](roadmaps/ddev-live.md)
