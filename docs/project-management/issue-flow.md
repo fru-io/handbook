@@ -31,7 +31,7 @@ Issues are smaller features, tasks, or bugs. They typically contain 1-2 user sto
 
 Labels reflect the status of particular issue and make that status highly visible on boards, we keep them general, consistent across all DDEV-Live repos, and generally assign an issue 1 label at a time. (There are occasional exceptions). The Board pipelines reflect where an issue is in the feature development lifecycle. We ID each sprint with the convention `YYYY-Quarter-sprintnumber`. All issues in the current sprint are assigned that sprint ID using the milestone field in Github. This allows for quick filtering of boards to the current sprint, reporting, and grooming.
 
- The labeling workflow and the board workflow work in parallel and align with the [Definitions of Ready and Done](project-management/dor-dod-raci.md).
+ The labeling workflow and the board workflow work in parallel and align with the [Definitions of Ready and Done](dor-dod-raci.md).
 
 ![Product-Engineering Issue Flow](images/label-flow.png)
 
@@ -48,7 +48,7 @@ Labels reflect the status of particular issue and make that status highly visibl
 | Showstopper | Product / Engineering | Urgent hot fix needed; bypasses DoR |
 | Work In Progress | Engineering | Work is underway in current sprint |
 | Done | Engineering | Meets Definition of Done; needs review before closing |
-| Epic | Set by Zenhub | Issue is an epic |
+| Epic | Zenhub | Issue is an epic |
 
 ## Typical Github Workflow
 1. Select an issue in the current sprint on the Board. It may be assigned already, or unassigned.

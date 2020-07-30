@@ -19,8 +19,9 @@ Pods are aligned towards [objectives](okr/introduction.md), and may nominate a r
 
 ## Pod Leader Responsibilities
 Depending on the strategy for a particular quarter, pods may elect a leader role. This role:
-- Acts as the communication lead for pod when interfacing with the other pods and stakeholders:
-- Can speak to stakeholders re: pod progress, priorities, constraints, blockers
-- Works with PM/SM to produce summary of work completed for sprint review meeting
-- Facilitates pod input on sprint backlog, goals, and OKR deliverables
-- Represents the pod in meetings with other pods
+
+* Acts as the communication lead for pod when interfacing with the other pods and stakeholders:
+* Can speak to stakeholders re: pod progress, priorities, constraints, blockers
+* Works with PM/SM to produce summary of work completed for sprint review meeting
+* Facilitates pod input on sprint backlog, goals, and OKR deliverables
+* Represents the pod in meetings with other pods

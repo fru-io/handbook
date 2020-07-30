@@ -6,7 +6,7 @@ The purpose of this handbook is to help you understand how DDEV works as an orga
 - [Mission Vision Values](company/mission-vision-values.md)
 - [Expense Policy](company/expense-policy.md)
 - [Out of Office Policy](company/out-of-office-policy.md)
-- [PTO Policy](company/pto-policy.md) 
+- [PTO Policy](company/pto-policy.md)
 - [Slack Policy](company/slack-policy.md)
 ## Engineering
 - [Features Pod](engineering/features-pod.md)
@@ -23,9 +23,10 @@ The purpose of this handbook is to help you understand how DDEV works as an orga
 - [Product Pod](product/product-pod.md)
 - [Lifecycle Workflow](product/product-lifecycle-workflow.md)
 ## Project Management
-- [Pods](project-management/pods.md)
 - [PM Pod](project-management/pm-pod.md)
 - [Scrum Process](project-management/scrum.md)
+- [Issue Flow](project-management/issue-flow.md)
 - [DoD, DoR, RACI](project-management/dor-dod-raci.md)
+- [Pods](project-management/pods.md)
 ## Roadmaps
 - [DDEV-Live](roadmaps/ddev-live.md)
