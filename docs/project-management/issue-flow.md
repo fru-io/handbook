@@ -19,17 +19,17 @@ In Zenhub, [OKRs](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps
 
 ## Board Organization and Workflow
 
-Our sprint board and labeling workflow is intended to be simple, flexible, and tightly coupled to where the actual work is being done: Github. The PM/SM role performs regular, daily management of issues and sprint boards so that our engineers can be focused on development, implementation, and code reviews.
+Our sprint board and labeling workflow are intended to be simple, flexible, and tightly coupled to where the actual work is being done: Github. The PM/SM role performs regular, daily management of issues and sprint boards so that our engineers can be focused on development, implementation, and code reviews.
 
-Zenhub "Releases" are a container in Zenhub for grouping related issues belonging to a body of work that spans multiple sprints. It is an abstract grouping for reporting against, and not specifically tied to code releases. `Releases` might be thought of as `projects`: we use them to track OKRs.
+Zenhub "Releases" are a container in Zenhub for grouping related issues belonging to a body of work that spans multiple sprints. It is an abstract grouping for reporting purposes and not specifically tied to code releases. `Releases` might be thought of as `projects`: we use them to track OKRs.
 
-Releases contain epics, issues, and PRs. An epic is a large feature, and contains a collection of user stories that can be broken down into specific tasks. Epics group and track progress against multiple, related, child issues in Github. Once all of its child issues are completed and closed, then the epic can be closed.
+Releases contain epics, issues, and PRs. An epic is a large feature, and contains a collection of user stories that can be broken down into specific tasks. Epics group and track progress against multiple, related, child issues in Github. Once all of its child issues are completed and closed, then an epic can be closed.
 
 Issues are smaller features, tasks, or bugs. They typically contain 1-2 user stories. They are closed when a related and linked Pull Request is merged to master.
 
 ## Labels and Board Pipelines
 
-Labels reflect the status of particular issue and make that status highly visible on boards, we keep them general, consistent across all DDEV-Live repos, and generally assign an issue 1 label at a time. (There are occasional exceptions). The Board pipelines reflect where an issue is in the feature development lifecycle. We ID each sprint with the convention `YYYY-Quarter-sprintnumber`. All issues in the current sprint are assigned that sprint ID using the milestone field in Github. This allows for quick filtering of boards to the current sprint, reporting, and grooming.
+Labels reflect the status of particular issue and make that status highly visible on boards. We try to keep them general and consistent across all DDEV-Live repos, preferably assigning 1 label at a time. (There are occasional exceptions). The Board pipelines reflect where an issue is in the feature development lifecycle. We ID each sprint with the convention `YYYY-Quarter-sprintnumber`. All issues in the current sprint are assigned that sprint ID using the milestone field in Github. This allows for quick filtering of boards to the current and future sprints.
 
  The labeling workflow and the board workflow work in parallel and align with the [Definitions of Ready and Done](dor-dod-raci.md).
 
@@ -59,8 +59,9 @@ Labels reflect the status of particular issue and make that status highly visibl
     - Set the `Work in Progress` or `Not Ready` labels
     - Put `WIP` in your PR title
 5. When the PR is approved and ready for merge, validate its acceptance criteria, user stories in the related issue by checking them off.
-6. Depending on the method of PR connection in step 3, a merged PR will automatically close its linked issue and move it to the `Closed` pipeline. If the issue is complete but is not automatically closed, ensure that it is.
+6. Depending on the method of PR connection in step 3, a merged PR will automatically close its linked issue and move to the `Closed` pipeline. If the issue is completed but not automatically closed, close it manually.
 7. If an issue is completed but requires sign-off from a product owner before closing, set the label to `done` and put it in the `Needs Review` pipeline.
+8. Issues can and do have multiple PRs associated. An issue remains open on the board with merged PRs linked to it when it is still in progress and there is more work coming.
 
 ## Issue Sizing
 We use a modified version of the [Fibonacci scale](https://en.wikipedia.org/wiki/Fibonacci_scale_(agile)) to relatively size our issues in Slack, asynchronously. A how-to is posted in the channel.
