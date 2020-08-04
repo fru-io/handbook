@@ -68,6 +68,7 @@ Agenda:
   - Product / Business team joins
 
 **Standup Best Practices:**
+
 * Standup is specific to current sprint
 * Meeting starts on time. Anyone can and should start it on time.
 * Pass the baton after your standup.
