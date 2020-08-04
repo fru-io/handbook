@@ -66,15 +66,15 @@ You can ping specific department groups to alert the members in that group.
 
 ### Company-Wide Communication
 
-- **#general** - Company wide channel for official announcements. Only administrators can post in this channel. It is for official use and you are expected to monitor the channel.
 - **#help** - This is where you can go to receive assistance with any topic. It can be useful when you aren't sure about where to communicate a specific piece of information or for general help requests.
-- **#welcome** - Company wide channel for general Q&A. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
+- **#general** - Company wide channel for official announcements. Only administrators can post in this channel. It is for official use and you are expected to monitor the channel.
 - **#people-services** - Use this channel to announce when you will be away from the keyboard for extended periods. Offical PTO requests should go through Bamboo. This channel is meant more as a courtesy to your team mates and managers.
 - **watercooler** - Company wide channel for watercooler conversations. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
+- **#welcome** - Company wide channel for general Q&A. Anyone in the company can post here, but you are not required to monitor or participate in the channel.
 
 ### Company Products
 
-- **#ddev** - Conversations related to the DDEV-Local product that are not pod specific.
+- **#ddev-local** - Conversations related to the DDEV-Local product that are not pod specific.
 - **#ddev-live** - Conversations related to the DDEV-Live product that are not pod specific.
 
 ### Pod Channels
@@ -101,6 +101,7 @@ Feed channels are automated rooms that receive incoming traffic from external se
 - **#feed-builds** - Automated information from different build pipelines and service providers
 - **#feed-cli** - Automated information for the drud/ddev-live-cli GitHub repository.
 - **#feed-cloud-ops** - Automated information for container registries, VictorOps, and StatusPages.
+- **#feed-ddev-local** - Build results and github activity for ddev, ddev-contrib, and related repositories.
 - **#feed-docs** - Automated information for the drud/docs GitHub repository.
 - **#feed-github** - Automated information for various Github repositories that have not been moved to a dedicated channel. Automated pull request reminders for all drud repositories.
 - **#feed-poker-planner** - A channel meant for the poker-planner bot to solicit estimations to assist with project planning.
