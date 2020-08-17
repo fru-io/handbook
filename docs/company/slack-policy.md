@@ -62,6 +62,12 @@ You can ping specific department groups to alert the members in that group.
 - **@product** - This will ping everyone associated with the Product Pod.
 - **@ux** - This will ping everyone associated with the UX Pod.
 
+You can see the group list and group members in Slack by taking these steps in the slack desktop app:
+
+- From your desktop, click **People & user groups** at the top of your left sidebar. If you don't see it, you can find it by clicking  More. 
+- Select the User groups tab at the top of the screen.
+- Click on any group to view its members.
+
 ## Room Guide
 
 ### Company-Wide Communication
