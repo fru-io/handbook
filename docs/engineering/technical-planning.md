@@ -2,9 +2,15 @@
 ## Request for Comment
 In the course of planning development, there are often scenarios where a technology or implementation decision fork is presented and an engineer wants to solicit ideas or feedback. 
 
-Writing a full-blown Architectural Decision Record may not appropriate as that document requires significant overhead in proposing answers that still may be largely unknown. In most cases, we only want to invest the time in writing an ADR only when a decision has been made and needs to be codified. Until then, it's a Decision Proposal, not a Decision Record.
+Writing a full-blown Architectural Decision Record may not be appropriate as that document requires significant overhead in proposing answers that still may be largely unknown. In most cases, we only want to invest the time in writing an ADR when a decision has been made and needs to be codified. Until then, it's a Decision Proposal, not a Decision Record.
 
-Instead we use a Request for Comment markdown template that is more lightweight and speculative. It is designed to generate conversation and rapid feedback when there is not a clear solution with any level of certainty.
+To generate conversation and rapid feedback, we use a Request for Comment (RFC) markdown template. An RFC is more lightweight and flexible, and allows for one or more of the following actions:
+
+* It could close with no action taken.
+* It could solidify consensus around a proposed solution.
+* It could lead to a spike of work to investigate further.
+* It could generate the initial discovery for an ADR.
+* It could lead to technical documentation.
 
 RFCs live as PR templates in the ddev-live docs repo.
 
@@ -21,15 +27,6 @@ Workflow:
 * Comments/discussion occurs on the PR and/or in the RFC PR thread
 * Once there's a conclusion reached for next steps on the RFC PR, incorporate those into the RFC PR
 * Close or merge the PR for memorialization
-
-The outcome of a RFC could be one or more of several paths.
-
-* It could close with no action taken.
-* It could solidify consensus around a proposed solution.
-* It could lead to a spike of work to investigate further.
-* It could generate the initial discovery for an ADR.
-* It could lead to technical documentation.
-
 
 Borrowing from this [Spotify diagram](https://engineering.atspotify.com/2020/04/14/when-should-i-write-an-architecture-decision-record), the flow is: 
 
