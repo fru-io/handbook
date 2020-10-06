@@ -113,6 +113,7 @@ Feed channels are automated rooms that receive incoming traffic from external se
 - **#feed-poker-planner** - A channel meant for the poker-planner bot to solicit estimations to assist with project planning.
 - **#feed-stand-ups** - A feed of stand up and retrospective information from geekbot.
 - **#feed-websites** - Automated information for the drud/ddevcom GitHub repository.
+- **#feed-pm** - Automated notifications from project/product management software.
 
 ### External Channels
 
