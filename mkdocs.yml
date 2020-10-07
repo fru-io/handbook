@@ -36,6 +36,7 @@ markdown_extensions:
         nested_indent: 2
         truly_sane: true
     - nl2br
+    - meta
 plugins:
     - search
     - git-revision-date-localized:
