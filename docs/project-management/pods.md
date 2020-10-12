@@ -7,15 +7,15 @@ The organizational structure we currently follow borrows the concept of pods fro
 The pods that closely collaborate in engineering sprints are:
 
 - Engineering
-  - [Features Pod](engineering/features-pod.md)
-  - [Ops Pod](engineering/ops-pod.md)
+  - [Features Pod](/engineering/features-pod)
+  - [Ops Pod](/engineering/ops-pod)
   - UX
 - Product
-  - [Product Pod](product/product-pod.md)
+  - [Product Pod](/product/product-pod)
 - Project Management
-  - [Project Management](project-management/pm-pod.md)
+  - [Project Management](/project-management/pm-pod)
 
-Pods are aligned towards [objectives](okr/introduction.md), and may nominate a rotating pod leader responsible for aligning the pod's members to that [objective](okr/introduction.md), sharing context with other pods and stakeholders, and arranging for breakout meetings to resolve blockers or technical decision forks.
+Pods are aligned towards [objectives](/okr/introduction), and may nominate a rotating pod leader responsible for aligning the pod's members to that [objective](/okr/introduction), sharing context with other pods and stakeholders, and arranging for breakout meetings to resolve blockers or technical decision forks.
 
 ## Pod Leader Responsibilities
 Depending on the strategy for a particular quarter, pods may elect a leader role. This role:
