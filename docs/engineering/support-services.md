@@ -121,7 +121,7 @@ A medium status indicates a lower impact problem that involves a partial loss of
   - If there is no resolution after two hours, escalate the issue by assigning it to the "DDEV Live Support" group.
   - Give the customer appropriate updates about status and progress.
   - If the team is waiting on a customer response the ticket should be set to pending in our support system. Pending issues will ber automatically closed after 72 hours if no response is received from the customer.
-  - If the issue uncovers a feature request follow the process for a submitting a [product feature request](product.md#feature-requests).
+  - If the issue uncovers a feature request follow the process for a submitting a [product feature request](/product/product-lifecycle-workflow#feature-requests).
   - When the issue is resolved, close the customer's issue in our support desk.
   - Once the issue has a resolution, organize a post-event write-up within twenty-four hours to recap the issue, the solution, and any lessons learned.
   - Work with a project manager to schedule any Github issues that result from the incident.
