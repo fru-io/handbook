@@ -1,2 +1,2 @@
 # Features Pod
-Make sure to read and understand the context of a [Pod](../project-management/pod.md) in our organization.
+Make sure to read and understand the context of a [Pod](/project-management/pods) in our organization.
