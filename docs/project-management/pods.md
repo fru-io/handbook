@@ -15,7 +15,7 @@ The pods that closely collaborate in engineering sprints are:
 - Project Management
   - [Project Management](/project-management/pm-pod)
 
-Pods are aligned towards [objectives](/okr/introduction), and may nominate a rotating pod leader responsible for aligning the pod's members to that [objective](/okr/introduction), sharing context with other pods and stakeholders, and arranging for breakout meetings to resolve blockers or technical decision forks.
+Pods are aligned towards objectives, and may nominate a rotating pod leader responsible for aligning the pod's members to that objective, sharing context with other pods and stakeholders, and arranging for breakout meetings to resolve blockers or technical decision forks.
 
 ## Pod Leader Responsibilities
 Depending on the strategy for a particular quarter, pods may elect a leader role. This role:
