@@ -44,8 +44,6 @@ plugins:
     - git-revision-date-localized:
         type: timeago
         locale: en
-extra_javascript:
-  - 'js/extra.js'
 theme:
   name: 'material'
   palette:
