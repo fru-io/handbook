@@ -7,13 +7,13 @@ The organizational structure we currently follow borrows the concept of pods fro
 The pods that closely collaborate in engineering sprints are:
 
 - Engineering
-  - [Features Pod](/engineering/features-pod)
-  - [Ops Pod](/engineering/ops-pod)
+  - [Features Pod](../engineering/features-pod.md)
+  - [Ops Pod](../engineering/ops-pod.md)
   - UX
 - Product
-  - [Product Pod](/product/product-pod)
+  - [Product Pod](../product/product-pod.md)
 - Project Management
-  - [Project Management](/project-management/pm-pod)
+  - [Project Management](pm-pod.md)
 
 Pods are aligned towards objectives, and may nominate a rotating pod leader responsible for aligning the pod's members to that objective, sharing context with other pods and stakeholders, and arranging for breakout meetings to resolve blockers or technical decision forks.
 

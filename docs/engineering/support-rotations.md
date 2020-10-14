@@ -28,7 +28,7 @@ The Tier One team is customer-facing and might not have deep systems access. The
 Tier One team responsibilities include:
 - Ensure response to all low priority tickets has gone out within 8 hours or the next business day. Metrics are recorded and used to measure our success.
 - For Urgent and High severity, tickets ensure that the VictorOps alerting is working and that a Tier Two team member has seen the alert and responded.
-- Participate in lower priority tickets by seeing if a [FAQ or Playbook](/engineering/playbooks) exists after acknowledging the customer. You may need to rely on the help of a Tier Two person to validate your assumptions, but you are responsible for responding to the customer.
+- Participate in lower priority tickets by seeing if a [FAQ or Playbook](playbooks.md) exists after acknowledging the customer. You may need to rely on the help of a Tier Two person to validate your assumptions, but you are responsible for responding to the customer.
 - Use and contribute to internal support playbooks with each unique issue you address that hasn’t been documented in the playbook yet. The vast majority of items dealt with on this team should exist in a playbook over time.
 - Attend a weekly support recap meeting at the end of your rotation (if requested) to flag tickets that are important for user documentation and or FAQ. Offer suggestions on how we might improve the support offering.  Help the documentation person identify patterns and high repeat tickets.
 
