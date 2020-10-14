@@ -1,8 +1,8 @@
 # Development
 ## Development Process
-- Feature requests are [sent to the Product-Pod](/product/product-lifecycle-workflow/#feature-requests) and follow the [Product Lifecycle Workflow](/product/product-lifecycle-workflow).
-- Once you are assigned an issue to work on validate that it meets the [Definition of Ready](/project-management/dor-dod-raci/#definition-of-ready). If it does not, push it back to the author of the issue.
-- Read any associate [Architectural Decision Records](https://adr.github.io/) that have been created during the [Product Lifecycle Workflow](/product/product-lifecycle-workflow). These will be stored in the repositories `docs/adr` directory.
+- Feature requests are [sent to the Product-Pod](../product/product-lifecycle-workflow.md#feature-requests) and follow the [Product Lifecycle Workflow](../product/product-lifecycle-workflow.md).
+- Once you are assigned an issue to work on validate that it meets the [Definition of Ready](../project-management/dor-dod-raci.md#definition-of-ready). If it does not, push it back to the author of the issue.
+- Read any associate [Architectural Decision Records](https://adr.github.io/) that have been created during the [Product Lifecycle Workflow](../product/product-lifecycle-workflow.md). These will be stored in the repositories `docs/adr` directory.
 - Each repository needs to have a manual test plan represented as a list of checkbox items. The manual test plan should be stored in the repository at `docs/test-plan.md`. A good example is visible in the [ddev-live-ui repository](https://github.com/drud/ddev-live-ui/blob/master/docs/test-plan.md).
 - As test plan items are automated they are moved from `docs/test-plan.md` and listed in `docs/test-plan-automated.md`.
 - As features are developed the test plan is modified with steps necessary to validate the changes. Code does not get accepted without the ability for other people to validate the work by executing the test plan. If work you are performing modifes the existing test plan you will need to update the test plan to be accurate.
@@ -37,5 +37,5 @@ By default, all public facing code repositories will commit to [Semantic Version
 
 All code projects use the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Documentation repositories should use the [Creative Commons License version 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-Projects that are being considered for publishing in the DDEV public organization should follow the guidelines and preparation steps outlined in the [Publishing Repositories](development/publishing-repositories) documentation.
+Projects that are being considered for publishing in the DDEV public organization should follow the guidelines and preparation steps outlined in the [Publishing Repositories](../development/publishing-repositories.md) documentation.
 
