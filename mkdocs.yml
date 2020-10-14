@@ -1,4 +1,5 @@
 site_name: DDEV Handbook
+site_url: https://handbook.ddev.com/en/latest
 nav:
     - Home: index.md
     - Company:
