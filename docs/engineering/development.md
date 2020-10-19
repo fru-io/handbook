@@ -1,3 +1,7 @@
+---
+title: Development
+description: Development, QA, release process and more at DDEV
+---
 # Development
 ## Development Process
 - Feature requests are [sent to the Product-Pod](../product/product-lifecycle-workflow.md#feature-requests) and follow the [Product Lifecycle Workflow](../product/product-lifecycle-workflow.md).

@@ -1,3 +1,7 @@
+---
+title: Product Lifecycle Workflow
+description: How product decisions get made at DDEV
+---
 # Product Lifecycle Workflow
 
 ## Feature Requests

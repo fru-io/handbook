@@ -1,3 +1,7 @@
+---
+title: Company mission, vision, and values
+description: The DDEV Code of Conduct
+---
 # Company
 ## Mission
 The DDEV mission is to empower open source developers who seek the freedom to choose the tools and platforms that support the way they want to work.

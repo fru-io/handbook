@@ -1,3 +1,7 @@
+---
+title: Out of office policy
+description: DDEV is a remote-first work environment
+---
 # Out of the Office but Working Policy
 
 "Out of the Office but Working" is our policy for communicating our work location when we plan to work outside of our home city for more than five hours. 

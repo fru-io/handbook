@@ -1,3 +1,7 @@
+---
+title: DDEV OKRs
+description: DDEV follows a collaborative OKR process to define company goals each quarter
+---
 # Q3 2020 DDEV-Live OKRs
 
 ## OKR 1: Endor

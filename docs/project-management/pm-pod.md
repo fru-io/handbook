@@ -1,3 +1,7 @@
+---
+title: Project Management
+description: How to manage and support the team in achieving DDEV OKRs
+---
 # Project Management
 
 ## PM Responsibilities

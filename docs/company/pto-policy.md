@@ -1,3 +1,7 @@
+---
+title: Paid Time Off Policy
+description: How to request and manage time off
+---
 # Paid Time Off Policy
 
 We would like to be as supportive of you taking paid time off as we can. To that end, we have attempted to simplify the request process. If you have any issues with these instructions contact your direct supervisor for assistance.
