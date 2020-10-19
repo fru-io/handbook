@@ -1,3 +1,7 @@
+---
+title: Publishing repositories
+description: DDEV is based on open source and cloud native principles. Here's how to share your work.
+---
 # Publishing Repositories
 
 ## Publishing Repositories to the public organization space

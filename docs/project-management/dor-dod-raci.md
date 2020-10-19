@@ -1,3 +1,7 @@
+---
+title: Definition of done and responsibilities
+description: DOD, DOR, and RACI - Spelling out work at every stage of development
+---
 # Definition of Ready, Done, and RACI
 
 Our Github issue templates contains checkboxes to validate our Definition of Ready, Definition of Done, and a RACI for each. An issue should meet the criteria of `Ready` before work begins. An issue should meet the criteria of `Done` before it is closed.

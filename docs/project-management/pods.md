@@ -1,3 +1,7 @@
+---
+title: Pods
+description: We organized our team like we organized our Kubernetes containers
+---
 # Pods
 
 As an organization, we are continually exploring methods for working together to deliver the highest value we can for our customers while striving for efficiency and reducing toil internally. As we've grow and work with increasingly complex systems, we adjust our workflows to improve direction, visibility, and reduce the pressure of delivery to manageable levels for everyone involved.

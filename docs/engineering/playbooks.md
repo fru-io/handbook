@@ -1,3 +1,7 @@
+---
+title: Playbooks
+description: Documenting and sharing information is integral to our culture
+---
 # Playbooks
 @TODO Introduce playbooks
 ## Support

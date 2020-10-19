@@ -1,3 +1,7 @@
+---
+title: How we use Slack
+description: As a remote, global company, asychronous communication is key
+---
 # How we use Slack
 
 - Questions/requests that need faster/same-day responses

@@ -1,3 +1,7 @@
+---
+title: Scrum
+description: How to have minimal, productive, collaborative meetings
+---
 # Scrum Meetings and Standups
 
 Each quarter, we have three 3-week sprints, followed by a final 4-week sprint. Each sprint consists of the following recurring meetings:
